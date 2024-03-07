@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bayu\\source\\repos\\Dashboard Sidebar\\Try Gradient and Sidebar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A97AB82-8ECD-441A-B974-6A217A696AEC}|Try Gradient and Sidebar\\Try Gradient and Sidebar.csproj|C:\\Users\\Bayu\\source\\repos\\Dashboard Sidebar\\Try Gradient and Sidebar\\try gradient and sidebar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A97AB82-8ECD-441A-B974-6A217A696AEC}|Try Gradient and Sidebar\\Try Gradient and Sidebar.csproj|solutionrelative:try gradient and sidebar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A97AB82-8ECD-441A-B974-6A217A696AEC}|Try Gradient and Sidebar\\Try Gradient and Sidebar.csproj|c:\\users\\bayu\\source\\repos\\dashboard sidebar\\try gradient and sidebar\\try gradient and sidebar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A97AB82-8ECD-441A-B974-6A217A696AEC}|Try Gradient and Sidebar\\Try Gradient and Sidebar.csproj|solutionrelative:try gradient and sidebar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Bayu\\source\\repos\\Dashboard Sidebar\\Try Gradient and Sidebar\\Try Gradient and Sidebar\\Form1.cs",
+              "RelativeDocumentMoniker": "Try Gradient and Sidebar\\Form1.cs",
+              "ToolTip": "C:\\Users\\Bayu\\source\\repos\\Dashboard Sidebar\\Try Gradient and Sidebar\\Try Gradient and Sidebar\\Form1.cs",
+              "RelativeToolTip": "Try Gradient and Sidebar\\Form1.cs",
+              "ViewState": "AQIAAN8AAAAAAAAAAAAAAN8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T07:51:11.674Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Bayu\\source\\repos\\Dashboard Sidebar\\Try Gradient and Sidebar\\Try Gradient and Sidebar\\Form1.cs",
+              "RelativeDocumentMoniker": "Try Gradient and Sidebar\\Form1.cs",
+              "ToolTip": "C:\\Users\\Bayu\\source\\repos\\Dashboard Sidebar\\Try Gradient and Sidebar\\Try Gradient and Sidebar\\Form1.cs [Design]",
+              "RelativeToolTip": "Try Gradient and Sidebar\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T00:33:24.501Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
