@@ -26,7 +26,7 @@ namespace Try_Gradient_and_Sidebar
             if (menuExpand)
             {
                 flowLayoutPanelSales.Height += 10;
-                if (flowLayoutPanelSales.Height >= 165)
+                if (flowLayoutPanelSales.Height >= 333)
                 {
                     menuTransition1.Stop();
                 }
@@ -137,10 +137,18 @@ namespace Try_Gradient_and_Sidebar
             if (sidebarExpand)
             {
                 sidebar.Width -= 10;
-                if (sidebar.Width <= 54)
+                if (sidebar.Width <= 70)
                 {
                     sidebarExpand = false;
                     sidebarTransition.Stop();
+                    buttonDashboard.Width = 48;
+                    buttonSales.Width = 48;
+                    buttonPurchase.Width = 48;
+                    buttonInventory.Width = 48;
+                    buttonProduction.Width = 48;
+                    buttonAccounting.Width = 48;
+                    buttonUtility.Width = 48;
+                    buttonLogout.Width = 48;
                 }
             }
             else
@@ -150,6 +158,14 @@ namespace Try_Gradient_and_Sidebar
                 {
                     sidebarExpand = true;
                     sidebarTransition.Stop();
+                    buttonDashboard.Width = sidebar.Width;
+                    buttonSales.Width = sidebar.Width;
+                    buttonPurchase.Width = sidebar.Width;
+                    buttonInventory.Width = sidebar.Width;
+                    buttonProduction.Width = sidebar.Width;
+                    buttonAccounting.Width = sidebar.Width;
+                    buttonUtility.Width = sidebar.Width;
+                    buttonLogout.Width = sidebar.Width;
                 }
             }
         }
@@ -239,6 +255,16 @@ namespace Try_Gradient_and_Sidebar
         }
 
         private void buttonTransaction_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonLogout_Click_1(object sender, EventArgs e)
         {
 
         }
