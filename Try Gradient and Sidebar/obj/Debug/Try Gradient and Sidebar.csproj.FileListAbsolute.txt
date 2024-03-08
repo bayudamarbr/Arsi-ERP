@@ -15,10 +15,12 @@ C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradie
 C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\bin\Debug\Try Gradient and Sidebar.pdb
 C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\bin\Debug\ReaLTaiizor.dll
 C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try Gradient and Sidebar.csproj.AssemblyReference.cache
-C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try_Gradient_and_Sidebar.Form1.resources
 C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try_Gradient_and_Sidebar.Properties.Resources.resources
 C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try Gradient and Sidebar.csproj.GenerateResource.cache
 C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try Gradient and Sidebar.csproj.CoreCompileInputs.cache
 C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try Grad.C9703D62.Up2Date
 C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try Gradient and Sidebar.exe
 C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try Gradient and Sidebar.pdb
+C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try_Gradient_and_Sidebar.Form3.resources
+C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try_Gradient_and_Sidebar.Form1.resources
+C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try_Gradient_and_Sidebar.Form2.resources
