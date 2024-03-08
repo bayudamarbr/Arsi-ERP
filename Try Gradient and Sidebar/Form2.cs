@@ -18,6 +18,8 @@ namespace Try_Gradient_and_Sidebar
             InitializeComponent();
             // Mengatur properti UseSystemPasswordChar menjadi true untuk TextBoxPassword
             TextboxPassword.UseSystemPasswordChar = true;
+            // Mengaitkan event handler TextBoxPassword_KeyDown dengan event KeyDown dari TextBoxPassword
+            TextboxPassword.KeyDown += TextBoxPassword_KeyDown;
         }
 
         private void buttonLogin_Click(object sender, EventArgs e)
@@ -39,5 +41,18 @@ namespace Try_Gradient_and_Sidebar
             }
         }
 
+        private void TextBoxPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                // Panggil fungsi atau metode yang menangani logika masuk
+                buttonLogin_Click(sender, e); // Memanggil event handler buttonLogin_Click
+            }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

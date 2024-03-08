@@ -37,15 +37,18 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.htaLogo = new System.Windows.Forms.PictureBox();
             this.erpLogo = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.htaLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpLogo)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.panel1.BackColor = System.Drawing.Color.DarkRed;
             this.panel1.Controls.Add(this.buttonLogin);
             this.panel1.Controls.Add(this.TextboxPassword);
@@ -53,14 +56,15 @@
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.htaLogo);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(329, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(345, 423);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // buttonLogin
             // 
+            this.buttonLogin.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.buttonLogin.BackColor = System.Drawing.Color.Transparent;
             this.buttonLogin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.buttonLogin.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -83,6 +87,7 @@
             // 
             // TextboxPassword
             // 
+            this.TextboxPassword.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.TextboxPassword.BackColor = System.Drawing.Color.Transparent;
             this.TextboxPassword.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.TextboxPassword.EdgeColor = System.Drawing.Color.White;
@@ -98,9 +103,11 @@
             this.TextboxPassword.Text = "Password";
             this.TextboxPassword.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.TextboxPassword.UseSystemPasswordChar = false;
+            this.TextboxPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBoxPassword_KeyDown);
             // 
             // TextboxUsername
             // 
+            this.TextboxUsername.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.TextboxUsername.BackColor = System.Drawing.Color.Transparent;
             this.TextboxUsername.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.TextboxUsername.EdgeColor = System.Drawing.Color.White;
@@ -119,6 +126,7 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(88, 223);
             this.pictureBox4.Name = "pictureBox4";
@@ -129,6 +137,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(84, 181);
             this.pictureBox3.Name = "pictureBox3";
@@ -139,6 +148,7 @@
             // 
             // htaLogo
             // 
+            this.htaLogo.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.htaLogo.Image = ((System.Drawing.Image)(resources.GetObject("htaLogo.Image")));
             this.htaLogo.Location = new System.Drawing.Point(110, 79);
             this.htaLogo.Name = "htaLogo";
@@ -149,6 +159,7 @@
             // 
             // erpLogo
             // 
+            this.erpLogo.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.erpLogo.Image = ((System.Drawing.Image)(resources.GetObject("erpLogo.Image")));
             this.erpLogo.Location = new System.Drawing.Point(36, 107);
             this.erpLogo.Name = "erpLogo";
@@ -157,13 +168,22 @@
             this.erpLogo.TabIndex = 1;
             this.erpLogo.TabStop = false;
             // 
+            // panel2
+            // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.panel2.Controls.Add(this.erpLogo);
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(345, 423);
+            this.panel2.TabIndex = 2;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(674, 423);
-            this.Controls.Add(this.erpLogo);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -174,6 +194,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.htaLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpLogo)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -188,5 +209,6 @@
         private ReaLTaiizor.Controls.DungeonButtonLeft buttonLogin;
         private ReaLTaiizor.Controls.DungeonTextBox TextboxPassword;
         private ReaLTaiizor.Controls.DungeonTextBox TextboxUsername;
+        private System.Windows.Forms.Panel panel2;
     }
 }
