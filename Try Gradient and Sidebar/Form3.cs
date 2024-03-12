@@ -13,10 +13,14 @@ namespace Try_Gradient_and_Sidebar
 {
     public partial class Form3 : Form
     {
+        FormSalesCus salesCus;
+        FormDashboard dashboard;
         public Form3(string username)
         {
             InitializeComponent();
             label3.Text = username;
+            this.Load += Form3_Load;
+            this.MdiChildActivate += Form3_MdiChildActivate;
         }
 
         bool menuExpand = false;
@@ -44,11 +48,6 @@ namespace Try_Gradient_and_Sidebar
 
 
         private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
         {
 
         }
@@ -149,6 +148,15 @@ namespace Try_Gradient_and_Sidebar
                     buttonAccounting.Width = 48;
                     buttonUtility.Width = 48;
                     buttonLogout.Width = 48;
+                    buttonSalesCustomer.Width = 48;
+                    buttonSalesContacts.Width = 48;
+                    buttonSalesProducts.Width = 48;
+                    buttonSQ.Width = 48;
+                    buttonSO.Width = 48;
+                    buttonDO.Width = 48;
+                    buttonSlsReport.Width = 48;
+
+
                 }
             }
             else
@@ -166,6 +174,13 @@ namespace Try_Gradient_and_Sidebar
                     buttonAccounting.Width = sidebar.Width;
                     buttonUtility.Width = sidebar.Width;
                     buttonLogout.Width = sidebar.Width;
+                    buttonSalesCustomer.Width = sidebar.Width;
+                    buttonSalesContacts.Width = sidebar.Width;
+                    buttonSalesProducts.Width = sidebar.Width;
+                    buttonSQ.Width = sidebar.Width;
+                    buttonSO.Width = sidebar.Width;
+                    buttonDO.Width = sidebar.Width;
+                    buttonSlsReport.Width = sidebar.Width;
                 }
             }
         }
@@ -183,6 +198,28 @@ namespace Try_Gradient_and_Sidebar
         private void labelDashboard_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void UpdateDashboardLabel()
+        {
+            if (this.ActiveMdiChild != null)
+            {
+                this.labelTittle.Text = this.ActiveMdiChild.Text;
+            }
+            else
+            {
+                this.labelTittle.Text = "Welcome to ERP Desktop App";
+            }
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            UpdateDashboardLabel();
+        }
+
+        private void Form3_MdiChildActivate(object sender, EventArgs e)
+        {
+            UpdateDashboardLabel();
         }
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
@@ -265,6 +302,78 @@ namespace Try_Gradient_and_Sidebar
         }
 
         private void buttonLogout_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (dashboard == null)
+            {
+                dashboard = new FormDashboard();
+                dashboard.FormClosed += dashboard_FormClosed;
+                dashboard.MdiParent = this;
+                dashboard.Dock = DockStyle.Fill;
+                dashboard.Show();
+            }
+            else
+            {
+                dashboard.Activate();
+            }
+        }
+
+        private void dashboard_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            dashboard = null;
+        }
+
+        private void buttonCustomer_Click(object sender, EventArgs e)
+        {
+            if (salesCus == null)
+            {
+                salesCus = new FormSalesCus();
+                salesCus.FormClosed += salesCus_FormClosed;
+                salesCus.MdiParent = this;
+                salesCus.Dock = DockStyle.Fill;
+                salesCus.Show();
+            }
+            else
+            {
+                salesCus.Activate();
+            }
+        }
+
+        private void salesCus_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            salesCus = null;
+        }
+
+        private void buttonSalesContacts_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonSalesProducts_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonSQ_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonSO_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonDO_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonSlsReport_Click(object sender, EventArgs e)
         {
 
         }

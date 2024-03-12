@@ -54,5 +54,10 @@ namespace Try_Gradient_and_Sidebar
         {
 
         }
+
+        private void erpLogo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

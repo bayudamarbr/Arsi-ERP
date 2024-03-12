@@ -167,6 +167,7 @@
             this.erpLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.erpLogo.TabIndex = 1;
             this.erpLogo.TabStop = false;
+            this.erpLogo.Click += new System.EventHandler(this.erpLogo_Click);
             // 
             // panel2
             // 
