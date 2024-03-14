@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace Try_Gradient_and_Sidebar
 {
-    public partial class FormSalesCusCreate : Form
+    public partial class FormSalesCusCreateInformation : Form
     {
 
 
-        public FormSalesCusCreate()
+        public FormSalesCusCreateInformation()
         {
             InitializeComponent();
         }

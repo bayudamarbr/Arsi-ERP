@@ -8,7 +8,7 @@ namespace Try_Gradient_and_Sidebar
 
     {
 
-        FormSalesCusCreate salesCusCreate;
+        FormSalesCusCreateInformation salesCusCreate;
         public FormSalesCus()
         {
             InitializeComponent();
@@ -52,7 +52,7 @@ namespace Try_Gradient_and_Sidebar
         {
             if (salesCusCreate == null)
             {
-                salesCusCreate = new FormSalesCusCreate();
+                salesCusCreate = new FormSalesCusCreateInformation();
                 salesCusCreate.FormClosed += salesCusCreate_FormClosed;
                 salesCusCreate.MdiParent = this.ParentForm;
                 salesCusCreate.Dock = DockStyle.Fill;
