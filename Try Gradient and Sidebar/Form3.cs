@@ -15,6 +15,7 @@ namespace Try_Gradient_and_Sidebar
     {
         FormSalesCus salesCus;
         FormDashboard dashboard;
+        FormSalesCusCreate salesCusCreate;
         public Form3(string username)
         {
             InitializeComponent();

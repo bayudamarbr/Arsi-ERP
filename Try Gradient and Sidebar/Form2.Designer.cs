@@ -91,7 +91,7 @@
             this.TextboxPassword.BackColor = System.Drawing.Color.Transparent;
             this.TextboxPassword.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.TextboxPassword.EdgeColor = System.Drawing.Color.White;
-            this.TextboxPassword.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.TextboxPassword.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.TextboxPassword.ForeColor = System.Drawing.Color.DimGray;
             this.TextboxPassword.Location = new System.Drawing.Point(142, 225);
             this.TextboxPassword.MaxLength = 32767;
@@ -103,6 +103,7 @@
             this.TextboxPassword.Text = "Password";
             this.TextboxPassword.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.TextboxPassword.UseSystemPasswordChar = false;
+            this.TextboxPassword.TextChanged += new System.EventHandler(this.TextboxPassword_TextChanged);
             this.TextboxPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBoxPassword_KeyDown);
             // 
             // TextboxUsername
@@ -111,7 +112,7 @@
             this.TextboxUsername.BackColor = System.Drawing.Color.Transparent;
             this.TextboxUsername.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.TextboxUsername.EdgeColor = System.Drawing.Color.White;
-            this.TextboxUsername.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.TextboxUsername.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextboxUsername.ForeColor = System.Drawing.Color.DimGray;
             this.TextboxUsername.Location = new System.Drawing.Point(142, 183);
             this.TextboxUsername.MaxLength = 32767;

@@ -59,5 +59,10 @@ namespace Try_Gradient_and_Sidebar
         {
 
         }
+
+        private void TextboxPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

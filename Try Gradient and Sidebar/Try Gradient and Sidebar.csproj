@@ -51,6 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormSalesCusCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesCusCreate.Designer.cs">
+      <DependentUpon>FormSalesCusCreate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormSalesCus.resx">
       <DependentUpon>FormSalesCus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesCusCreate.resx">
+      <DependentUpon>FormSalesCusCreate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
