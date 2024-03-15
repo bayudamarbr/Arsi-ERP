@@ -13,7 +13,7 @@ namespace Try_Gradient_and_Sidebar
     public partial class FormSalesCusCreateInformation : Form
     {
 
-
+        FormSalesInvoice FormSalesInvoice;
         public FormSalesCusCreateInformation()
         {
             InitializeComponent();
@@ -100,6 +100,33 @@ namespace Try_Gradient_and_Sidebar
         }
 
         private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void buttonInvoice_Click_2(object sender, EventArgs e)
+        {
+            if (FormSalesInvoice == null)
+            {
+                FormSalesInvoice = new FormSalesInvoice();
+                FormSalesInvoice.FormClosed += FormSalesInvoice_FormClosed;
+                FormSalesInvoice.MdiParent = this.ParentForm;
+                FormSalesInvoice.Dock = DockStyle.Fill;
+                FormSalesInvoice.Show();
+            }
+            else
+            {
+                FormSalesInvoice.Activate();
+            }
+        }
+
+        private void FormSalesInvoice_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            FormSalesInvoice = null;
+        }
+
+        private void buttonInformation_Click(object sender, EventArgs e)
         {
 
         }

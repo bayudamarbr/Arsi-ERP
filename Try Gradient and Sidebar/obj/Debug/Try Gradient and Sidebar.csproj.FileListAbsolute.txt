@@ -27,3 +27,4 @@ C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradie
 C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try_Gradient_and_Sidebar.FormSalesCus.resources
 C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try_Gradient_and_Sidebar.FormDashboard.resources
 C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try_Gradient_and_Sidebar.FormSalesCusCreateInformation.resources
+C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try_Gradient_and_Sidebar.FormSalesInvoice.resources

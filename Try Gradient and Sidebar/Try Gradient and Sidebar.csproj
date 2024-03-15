@@ -51,11 +51,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormSalesCusCreate.cs">
+    <Compile Include="FormSalesCusInformation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesCusCreate.Designer.cs">
-      <DependentUpon>FormSalesCusCreate.cs</DependentUpon>
+    <Compile Include="FormSalesCusInformation.Designer.cs">
+      <DependentUpon>FormSalesCusInformation.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -87,6 +87,12 @@
     <Compile Include="FormSalesCus.Designer.cs">
       <DependentUpon>FormSalesCus.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSalesCusInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesCusInvoice.Designer.cs">
+      <DependentUpon>FormSalesCusInvoice.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -104,8 +110,11 @@
     <EmbeddedResource Include="FormSalesCus.resx">
       <DependentUpon>FormSalesCus.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesCusCreate.resx">
-      <DependentUpon>FormSalesCusCreate.cs</DependentUpon>
+    <EmbeddedResource Include="FormSalesCusInformation.resx">
+      <DependentUpon>FormSalesCusInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesCusInvoice.resx">
+      <DependentUpon>FormSalesCusInvoice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
