@@ -28,3 +28,7 @@ C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradie
 C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try_Gradient_and_Sidebar.FormDashboard.resources
 C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try_Gradient_and_Sidebar.FormSalesCusCreateInformation.resources
 C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try_Gradient_and_Sidebar.FormSalesInvoice.resources
+C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try_Gradient_and_Sidebar.FormSalesCusAccounting.resources
+C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try_Gradient_and_Sidebar.FormSalesCusDelivery.resources
+C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try_Gradient_and_Sidebar.FormSalesCusAccountingCreate.resources
+C:\Users\Bayu\source\repos\Dashboard Sidebar\Try Gradient and Sidebar\Try Gradient and Sidebar\obj\Debug\Try_Gradient_and_Sidebar.FormSalesCusCreateCustomer.resources

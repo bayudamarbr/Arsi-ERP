@@ -10,15 +10,20 @@ using System.Windows.Forms;
 
 namespace Try_Gradient_and_Sidebar
 {
-    public partial class FormSalesInvoice : Form
+    public partial class FormSalesCusCreateCustomer : Form
     {
         FormSalesCusCreateInformation salesCusCreate;
         FormSalesCusAccounting salesAcounting;
-        FormSalesCusCreateCustomer salesCustomer;
+        FormSalesInvoice salesInvoice;
         FormSalesCusDelivery salesDelivery;
-        public FormSalesInvoice()
+        public FormSalesCusCreateCustomer()
         {
             InitializeComponent();
+        }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+
         }
 
         private void buttonInformation_Click(object sender, EventArgs e)
@@ -42,29 +47,28 @@ namespace Try_Gradient_and_Sidebar
             salesCusCreate = null;
         }
 
-        private void FormSalesInvoice_Load(object sender, EventArgs e)
+        private void buttonInvoice_Click(object sender, EventArgs e)
         {
-
+            if (salesInvoice == null)
+            {
+                salesInvoice = new FormSalesInvoice();
+                salesInvoice.FormClosed += salesInvoice_FormClosed;
+                salesInvoice.MdiParent = this.ParentForm;
+                salesInvoice.Dock = DockStyle.Fill;
+                salesInvoice.Show();
+            }
+            else
+            {
+                salesInvoice.Activate();
+            }
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void salesInvoice_FormClosed(object sender, FormClosedEventArgs e)
         {
-
+            salesInvoice = null;
         }
 
-        private void panel5_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-
-        private void buttonAccounting_Click_1(object sender, EventArgs e)
+        private void buttonAccounting_Click(object sender, EventArgs e)
         {
             if (salesAcounting == null)
             {
@@ -85,28 +89,7 @@ namespace Try_Gradient_and_Sidebar
             salesAcounting = null;
         }
 
-        private void buttonCustomer_Click_1(object sender, EventArgs e)
-        {
-            if (salesCustomer == null)
-            {
-                salesCustomer = new FormSalesCusCreateCustomer();
-                salesCustomer.FormClosed += FormSalesCustomer_FormClosed;
-                salesCustomer.MdiParent = this.ParentForm;
-                salesCustomer.Dock = DockStyle.Fill;
-                salesCustomer.Show();
-            }
-            else
-            {
-                salesCustomer.Activate();
-            }
-        }
-
-        private void FormSalesCustomer_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            salesCustomer = null;
-        }
-
-        private void buttonDelivery_Click_1(object sender, EventArgs e)
+        private void buttonDelivery_Click(object sender, EventArgs e)
         {
             if (salesDelivery == null)
             {
@@ -127,7 +110,7 @@ namespace Try_Gradient_and_Sidebar
             salesDelivery = null;
         }
 
-        private void buttonInvoice_Click(object sender, EventArgs e)
+        private void buttonCustomer_Click(object sender, EventArgs e)
         {
 
         }

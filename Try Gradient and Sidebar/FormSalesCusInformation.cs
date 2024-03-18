@@ -14,6 +14,9 @@ namespace Try_Gradient_and_Sidebar
     {
 
         FormSalesInvoice FormSalesInvoice;
+        FormSalesCusAccounting salesAcounting;
+        FormSalesCusCreateCustomer salesCustomer;
+        FormSalesCusDelivery salesDelivery;
         public FormSalesCusCreateInformation()
         {
             InitializeComponent();
@@ -129,6 +132,69 @@ namespace Try_Gradient_and_Sidebar
         private void buttonInformation_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttonAccounting_Click(object sender, EventArgs e)
+        {
+            if (salesAcounting == null)
+            {
+                salesAcounting = new FormSalesCusAccounting();
+                salesAcounting.FormClosed += FormSalesAccounting_FormClosed;
+                salesAcounting.MdiParent = this.ParentForm;
+                salesAcounting.Dock = DockStyle.Fill;
+                salesAcounting.Show();
+            }
+            else
+            {
+                salesAcounting.Activate();
+            }
+        }
+
+        private void FormSalesAccounting_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            salesAcounting = null;
+        }
+
+        private void buttonCustomer_Click(object sender, EventArgs e)
+        {
+            if (salesCustomer == null)
+            {
+                salesCustomer = new FormSalesCusCreateCustomer();
+                salesCustomer.FormClosed += FormSalesCustomer_FormClosed;
+                salesCustomer.MdiParent = this.ParentForm;
+                salesCustomer.Dock = DockStyle.Fill;
+                salesCustomer.Show();
+            }
+            else
+            {
+                salesCustomer.Activate();
+            }
+        }
+
+        private void FormSalesCustomer_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            salesCustomer = null;
+        }
+
+        private void buttonDelivery_Click(object sender, EventArgs e)
+        {
+            if (salesDelivery == null)
+            {
+                salesDelivery = new FormSalesCusDelivery();
+                salesDelivery.FormClosed += FormSalesDelivery_FormClosed;
+                salesDelivery.MdiParent = this.ParentForm;
+                salesDelivery.Dock = DockStyle.Fill;
+                salesDelivery.Show();
+            }
+            else
+            {
+                salesDelivery.Activate();
+            }
+        }
+
+        private void FormSalesDelivery_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            salesDelivery = null;
         }
     }
 }

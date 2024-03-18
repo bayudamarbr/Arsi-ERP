@@ -51,6 +51,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormSalesCusAccounting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesCusAccounting.Designer.cs">
+      <DependentUpon>FormSalesCusAccounting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSalesCusAccountingCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesCusAccountingCreate.Designer.cs">
+      <DependentUpon>FormSalesCusAccountingCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSalesCusCreateCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesCusCreateCustomer.Designer.cs">
+      <DependentUpon>FormSalesCusCreateCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSalesCusDelivery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesCusDelivery.Designer.cs">
+      <DependentUpon>FormSalesCusDelivery.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSalesCusInformation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +133,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormSalesCus.resx">
       <DependentUpon>FormSalesCus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesCusAccounting.resx">
+      <DependentUpon>FormSalesCusAccounting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesCusAccountingCreate.resx">
+      <DependentUpon>FormSalesCusAccountingCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesCusCreateCustomer.resx">
+      <DependentUpon>FormSalesCusCreateCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesCusDelivery.resx">
+      <DependentUpon>FormSalesCusDelivery.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSalesCusInformation.resx">
       <DependentUpon>FormSalesCusInformation.cs</DependentUpon>

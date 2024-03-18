@@ -47,7 +47,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.buttonInvoice = new System.Windows.Forms.Button();
             this.buttonAccounting = new System.Windows.Forms.Button();
-            this.buttonBlocking = new System.Windows.Forms.Button();
             this.buttonCustomer = new System.Windows.Forms.Button();
             this.buttonDelivery = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -322,36 +321,29 @@
             this.buttonAccounting.TabIndex = 7;
             this.buttonAccounting.Text = "Accounting Situation";
             this.buttonAccounting.UseVisualStyleBackColor = true;
-            // 
-            // buttonBlocking
-            // 
-            this.buttonBlocking.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonBlocking.Location = new System.Drawing.Point(385, 177);
-            this.buttonBlocking.Name = "buttonBlocking";
-            this.buttonBlocking.Size = new System.Drawing.Size(69, 25);
-            this.buttonBlocking.TabIndex = 8;
-            this.buttonBlocking.Text = "Blocking";
-            this.buttonBlocking.UseVisualStyleBackColor = true;
+            this.buttonAccounting.Click += new System.EventHandler(this.buttonAccounting_Click);
             // 
             // buttonCustomer
             // 
             this.buttonCustomer.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCustomer.Location = new System.Drawing.Point(460, 177);
+            this.buttonCustomer.Location = new System.Drawing.Point(385, 177);
             this.buttonCustomer.Name = "buttonCustomer";
             this.buttonCustomer.Size = new System.Drawing.Size(69, 25);
             this.buttonCustomer.TabIndex = 9;
             this.buttonCustomer.Text = "Customer";
             this.buttonCustomer.UseVisualStyleBackColor = true;
+            this.buttonCustomer.Click += new System.EventHandler(this.buttonCustomer_Click);
             // 
             // buttonDelivery
             // 
             this.buttonDelivery.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonDelivery.Location = new System.Drawing.Point(535, 177);
+            this.buttonDelivery.Location = new System.Drawing.Point(460, 177);
             this.buttonDelivery.Name = "buttonDelivery";
             this.buttonDelivery.Size = new System.Drawing.Size(69, 25);
             this.buttonDelivery.TabIndex = 10;
             this.buttonDelivery.Text = "Delivery";
             this.buttonDelivery.UseVisualStyleBackColor = true;
+            this.buttonDelivery.Click += new System.EventHandler(this.buttonDelivery_Click);
             // 
             // panel4
             // 
@@ -1046,7 +1038,6 @@
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.buttonDelivery);
             this.Controls.Add(this.buttonCustomer);
-            this.Controls.Add(this.buttonBlocking);
             this.Controls.Add(this.buttonAccounting);
             this.Controls.Add(this.buttonInvoice);
             this.Controls.Add(this.panel3);
@@ -1094,7 +1085,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button buttonInvoice;
         private System.Windows.Forms.Button buttonAccounting;
-        private System.Windows.Forms.Button buttonBlocking;
         private System.Windows.Forms.Button buttonCustomer;
         private System.Windows.Forms.Button buttonDelivery;
         private System.Windows.Forms.Panel panel4;

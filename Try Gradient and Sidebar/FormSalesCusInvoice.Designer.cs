@@ -41,7 +41,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buttonDelivery = new System.Windows.Forms.Button();
             this.buttonCustomer = new System.Windows.Forms.Button();
-            this.buttonBlocking = new System.Windows.Forms.Button();
             this.buttonAccounting = new System.Windows.Forms.Button();
             this.buttonInvoice = new System.Windows.Forms.Button();
             this.buttonInformation = new System.Windows.Forms.Button();
@@ -214,32 +213,24 @@
             // buttonDelivery
             // 
             this.buttonDelivery.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonDelivery.Location = new System.Drawing.Point(535, 177);
+            this.buttonDelivery.Location = new System.Drawing.Point(460, 177);
             this.buttonDelivery.Name = "buttonDelivery";
             this.buttonDelivery.Size = new System.Drawing.Size(69, 25);
             this.buttonDelivery.TabIndex = 16;
             this.buttonDelivery.Text = "Delivery";
             this.buttonDelivery.UseVisualStyleBackColor = true;
+            this.buttonDelivery.Click += new System.EventHandler(this.buttonDelivery_Click_1);
             // 
             // buttonCustomer
             // 
             this.buttonCustomer.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCustomer.Location = new System.Drawing.Point(460, 177);
+            this.buttonCustomer.Location = new System.Drawing.Point(385, 177);
             this.buttonCustomer.Name = "buttonCustomer";
             this.buttonCustomer.Size = new System.Drawing.Size(69, 25);
             this.buttonCustomer.TabIndex = 15;
             this.buttonCustomer.Text = "Customer";
             this.buttonCustomer.UseVisualStyleBackColor = true;
-            // 
-            // buttonBlocking
-            // 
-            this.buttonBlocking.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonBlocking.Location = new System.Drawing.Point(385, 177);
-            this.buttonBlocking.Name = "buttonBlocking";
-            this.buttonBlocking.Size = new System.Drawing.Size(69, 25);
-            this.buttonBlocking.TabIndex = 14;
-            this.buttonBlocking.Text = "Blocking";
-            this.buttonBlocking.UseVisualStyleBackColor = true;
+            this.buttonCustomer.Click += new System.EventHandler(this.buttonCustomer_Click_1);
             // 
             // buttonAccounting
             // 
@@ -250,6 +241,7 @@
             this.buttonAccounting.TabIndex = 13;
             this.buttonAccounting.Text = "Accounting Situation";
             this.buttonAccounting.UseVisualStyleBackColor = true;
+            this.buttonAccounting.Click += new System.EventHandler(this.buttonAccounting_Click_1);
             // 
             // buttonInvoice
             // 
@@ -260,6 +252,7 @@
             this.buttonInvoice.TabIndex = 12;
             this.buttonInvoice.Text = "Invoicing/Payment";
             this.buttonInvoice.UseVisualStyleBackColor = true;
+            this.buttonInvoice.Click += new System.EventHandler(this.buttonInvoice_Click);
             // 
             // buttonInformation
             // 
@@ -696,7 +689,6 @@
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.buttonDelivery);
             this.Controls.Add(this.buttonCustomer);
-            this.Controls.Add(this.buttonBlocking);
             this.Controls.Add(this.buttonAccounting);
             this.Controls.Add(this.buttonInvoice);
             this.Controls.Add(this.buttonInformation);
@@ -743,7 +735,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button buttonDelivery;
         private System.Windows.Forms.Button buttonCustomer;
-        private System.Windows.Forms.Button buttonBlocking;
         private System.Windows.Forms.Button buttonAccounting;
         private System.Windows.Forms.Button buttonInvoice;
         private System.Windows.Forms.Button buttonInformation;
