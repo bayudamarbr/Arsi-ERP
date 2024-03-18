@@ -107,9 +107,10 @@
             this.panel1.Controls.Add(this.nightControlBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Padding = new System.Windows.Forms.Padding(2);
-            this.panel1.Size = new System.Drawing.Size(1280, 25);
+            this.panel1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Size = new System.Drawing.Size(1707, 31);
             this.panel1.TabIndex = 0;
             // 
             // nightControlBox1
@@ -127,7 +128,7 @@
             this.nightControlBox1.EnableMaximizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
             this.nightControlBox1.EnableMinimizeButton = true;
             this.nightControlBox1.EnableMinimizeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(160)))), ((int)(((byte)(160)))));
-            this.nightControlBox1.Location = new System.Drawing.Point(1141, 0);
+            this.nightControlBox1.Location = new System.Drawing.Point(1521, 0);
             this.nightControlBox1.MaximizeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.nightControlBox1.MaximizeHoverForeColor = System.Drawing.Color.White;
             this.nightControlBox1.MinimizeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -140,11 +141,12 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.IndianRed;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 25);
-            this.panel2.MaximumSize = new System.Drawing.Size(1280, 35);
+            this.panel2.Location = new System.Drawing.Point(0, 31);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.MaximumSize = new System.Drawing.Size(1707, 43);
             this.panel2.Name = "panel2";
-            this.panel2.Padding = new System.Windows.Forms.Padding(2);
-            this.panel2.Size = new System.Drawing.Size(1280, 1);
+            this.panel2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Size = new System.Drawing.Size(1707, 1);
             this.panel2.TabIndex = 1;
             // 
             // label3
@@ -153,9 +155,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.Gray;
-            this.label3.Location = new System.Drawing.Point(915, 7);
+            this.label3.Location = new System.Drawing.Point(1221, 9);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 19);
+            this.label3.Size = new System.Drawing.Size(104, 23);
             this.label3.TabIndex = 5;
             this.label3.Text = "Bayu Damar";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -165,9 +168,10 @@
             this.labelTittle.AutoSize = true;
             this.labelTittle.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTittle.ForeColor = System.Drawing.Color.Red;
-            this.labelTittle.Location = new System.Drawing.Point(44, 7);
+            this.labelTittle.Location = new System.Drawing.Point(59, 9);
+            this.labelTittle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTittle.Name = "labelTittle";
-            this.labelTittle.Size = new System.Drawing.Size(86, 21);
+            this.labelTittle.Size = new System.Drawing.Size(105, 28);
             this.labelTittle.TabIndex = 4;
             this.labelTittle.Text = "WELCOME";
             this.labelTittle.Click += new System.EventHandler(this.labelDashboard_Click);
@@ -175,9 +179,10 @@
             // slideNav
             // 
             this.slideNav.Image = ((System.Drawing.Image)(resources.GetObject("slideNav.Image")));
-            this.slideNav.Location = new System.Drawing.Point(9, 10);
+            this.slideNav.Location = new System.Drawing.Point(12, 12);
+            this.slideNav.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.slideNav.Name = "slideNav";
-            this.slideNav.Size = new System.Drawing.Size(16, 16);
+            this.slideNav.Size = new System.Drawing.Size(21, 20);
             this.slideNav.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.slideNav.TabIndex = 3;
             this.slideNav.TabStop = false;
@@ -187,9 +192,10 @@
             // 
             this.logoUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.logoUser.Image = ((System.Drawing.Image)(resources.GetObject("logoUser.Image")));
-            this.logoUser.Location = new System.Drawing.Point(1006, 9);
+            this.logoUser.Location = new System.Drawing.Point(1342, 11);
+            this.logoUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.logoUser.Name = "logoUser";
-            this.logoUser.Size = new System.Drawing.Size(18, 18);
+            this.logoUser.Size = new System.Drawing.Size(24, 22);
             this.logoUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logoUser.TabIndex = 3;
             this.logoUser.TabStop = false;
@@ -208,19 +214,20 @@
             this.sidebar.Controls.Add(this.flowLayoutPanel5);
             this.sidebar.Controls.Add(this.flowLayoutPanel6);
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
-            this.sidebar.Location = new System.Drawing.Point(0, 26);
+            this.sidebar.Location = new System.Drawing.Point(0, 32);
+            this.sidebar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.sidebar.Name = "sidebar";
-            this.sidebar.Padding = new System.Windows.Forms.Padding(6, 25, 0, 0);
-            this.sidebar.Size = new System.Drawing.Size(244, 762);
+            this.sidebar.Padding = new System.Windows.Forms.Padding(8, 31, 0, 0);
+            this.sidebar.Size = new System.Drawing.Size(325, 938);
             this.sidebar.TabIndex = 4;
             // 
             // pictHta
             // 
             this.pictHta.Image = ((System.Drawing.Image)(resources.GetObject("pictHta.Image")));
-            this.pictHta.Location = new System.Drawing.Point(6, 28);
-            this.pictHta.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
+            this.pictHta.Location = new System.Drawing.Point(8, 35);
+            this.pictHta.Margin = new System.Windows.Forms.Padding(0, 4, 4, 4);
             this.pictHta.Name = "pictHta";
-            this.pictHta.Size = new System.Drawing.Size(219, 34);
+            this.pictHta.Size = new System.Drawing.Size(292, 42);
             this.pictHta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictHta.TabIndex = 12;
             this.pictHta.TabStop = false;
@@ -230,10 +237,11 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.White;
             this.panel4.Controls.Add(this.buttonDashboard);
-            this.panel4.Location = new System.Drawing.Point(9, 68);
+            this.panel4.Location = new System.Drawing.Point(12, 85);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.panel4.Size = new System.Drawing.Size(222, 37);
+            this.panel4.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.panel4.Size = new System.Drawing.Size(296, 46);
             this.panel4.TabIndex = 5;
             // 
             // buttonDashboard
@@ -247,9 +255,10 @@
             this.buttonDashboard.Image = ((System.Drawing.Image)(resources.GetObject("buttonDashboard.Image")));
             this.buttonDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonDashboard.Location = new System.Drawing.Point(-1, 0);
+            this.buttonDashboard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonDashboard.Name = "buttonDashboard";
-            this.buttonDashboard.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonDashboard.Size = new System.Drawing.Size(222, 37);
+            this.buttonDashboard.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.buttonDashboard.Size = new System.Drawing.Size(296, 46);
             this.buttonDashboard.TabIndex = 6;
             this.buttonDashboard.Text = "         Dashboard";
             this.buttonDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -268,10 +277,10 @@
             this.flowLayoutPanelSales.Controls.Add(this.buttonSO);
             this.flowLayoutPanelSales.Controls.Add(this.buttonDO);
             this.flowLayoutPanelSales.Controls.Add(this.buttonSlsReport);
-            this.flowLayoutPanelSales.Location = new System.Drawing.Point(6, 108);
+            this.flowLayoutPanelSales.Location = new System.Drawing.Point(8, 135);
             this.flowLayoutPanelSales.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanelSales.Name = "flowLayoutPanelSales";
-            this.flowLayoutPanelSales.Size = new System.Drawing.Size(222, 37);
+            this.flowLayoutPanelSales.Size = new System.Drawing.Size(296, 46);
             this.flowLayoutPanelSales.TabIndex = 7;
             // 
             // buttonSales
@@ -284,10 +293,11 @@
             this.buttonSales.ForeColor = System.Drawing.Color.DarkGray;
             this.buttonSales.Image = ((System.Drawing.Image)(resources.GetObject("buttonSales.Image")));
             this.buttonSales.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonSales.Location = new System.Drawing.Point(3, 3);
+            this.buttonSales.Location = new System.Drawing.Point(4, 4);
+            this.buttonSales.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSales.Name = "buttonSales";
-            this.buttonSales.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonSales.Size = new System.Drawing.Size(219, 37);
+            this.buttonSales.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.buttonSales.Size = new System.Drawing.Size(292, 46);
             this.buttonSales.TabIndex = 6;
             this.buttonSales.Text = "         Sales    ";
             this.buttonSales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -304,10 +314,11 @@
             this.buttonSalesCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSalesCustomer.ForeColor = System.Drawing.Color.DarkGray;
             this.buttonSalesCustomer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonSalesCustomer.Location = new System.Drawing.Point(3, 46);
+            this.buttonSalesCustomer.Location = new System.Drawing.Point(4, 58);
+            this.buttonSalesCustomer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSalesCustomer.Name = "buttonSalesCustomer";
-            this.buttonSalesCustomer.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonSalesCustomer.Size = new System.Drawing.Size(243, 37);
+            this.buttonSalesCustomer.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.buttonSalesCustomer.Size = new System.Drawing.Size(324, 46);
             this.buttonSalesCustomer.TabIndex = 7;
             this.buttonSalesCustomer.Text = "         Customer";
             this.buttonSalesCustomer.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -323,10 +334,11 @@
             this.buttonSalesContacts.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSalesContacts.ForeColor = System.Drawing.Color.DarkGray;
             this.buttonSalesContacts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonSalesContacts.Location = new System.Drawing.Point(3, 89);
+            this.buttonSalesContacts.Location = new System.Drawing.Point(4, 112);
+            this.buttonSalesContacts.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSalesContacts.Name = "buttonSalesContacts";
-            this.buttonSalesContacts.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonSalesContacts.Size = new System.Drawing.Size(243, 37);
+            this.buttonSalesContacts.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.buttonSalesContacts.Size = new System.Drawing.Size(324, 46);
             this.buttonSalesContacts.TabIndex = 10;
             this.buttonSalesContacts.Text = "         Contacts";
             this.buttonSalesContacts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -342,10 +354,11 @@
             this.buttonSalesProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSalesProducts.ForeColor = System.Drawing.Color.DarkGray;
             this.buttonSalesProducts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonSalesProducts.Location = new System.Drawing.Point(3, 132);
+            this.buttonSalesProducts.Location = new System.Drawing.Point(4, 166);
+            this.buttonSalesProducts.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSalesProducts.Name = "buttonSalesProducts";
-            this.buttonSalesProducts.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonSalesProducts.Size = new System.Drawing.Size(243, 36);
+            this.buttonSalesProducts.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.buttonSalesProducts.Size = new System.Drawing.Size(324, 44);
             this.buttonSalesProducts.TabIndex = 11;
             this.buttonSalesProducts.Text = "         Products";
             this.buttonSalesProducts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -361,10 +374,11 @@
             this.buttonSQ.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSQ.ForeColor = System.Drawing.Color.DarkGray;
             this.buttonSQ.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonSQ.Location = new System.Drawing.Point(3, 174);
+            this.buttonSQ.Location = new System.Drawing.Point(4, 218);
+            this.buttonSQ.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSQ.Name = "buttonSQ";
-            this.buttonSQ.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonSQ.Size = new System.Drawing.Size(243, 37);
+            this.buttonSQ.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.buttonSQ.Size = new System.Drawing.Size(324, 46);
             this.buttonSQ.TabIndex = 12;
             this.buttonSQ.Text = "         Sale Quotations";
             this.buttonSQ.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -380,10 +394,11 @@
             this.buttonSO.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSO.ForeColor = System.Drawing.Color.DarkGray;
             this.buttonSO.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonSO.Location = new System.Drawing.Point(3, 217);
+            this.buttonSO.Location = new System.Drawing.Point(4, 272);
+            this.buttonSO.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSO.Name = "buttonSO";
-            this.buttonSO.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonSO.Size = new System.Drawing.Size(243, 37);
+            this.buttonSO.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.buttonSO.Size = new System.Drawing.Size(324, 46);
             this.buttonSO.TabIndex = 13;
             this.buttonSO.Text = "         Sale Orders";
             this.buttonSO.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -399,10 +414,11 @@
             this.buttonDO.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonDO.ForeColor = System.Drawing.Color.DarkGray;
             this.buttonDO.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonDO.Location = new System.Drawing.Point(3, 260);
+            this.buttonDO.Location = new System.Drawing.Point(4, 326);
+            this.buttonDO.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonDO.Name = "buttonDO";
-            this.buttonDO.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonDO.Size = new System.Drawing.Size(243, 37);
+            this.buttonDO.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.buttonDO.Size = new System.Drawing.Size(324, 46);
             this.buttonDO.TabIndex = 14;
             this.buttonDO.Text = "         Delivery Order";
             this.buttonDO.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -418,10 +434,11 @@
             this.buttonSlsReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSlsReport.ForeColor = System.Drawing.Color.DarkGray;
             this.buttonSlsReport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonSlsReport.Location = new System.Drawing.Point(3, 303);
+            this.buttonSlsReport.Location = new System.Drawing.Point(4, 380);
+            this.buttonSlsReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSlsReport.Name = "buttonSlsReport";
-            this.buttonSlsReport.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonSlsReport.Size = new System.Drawing.Size(243, 37);
+            this.buttonSlsReport.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.buttonSlsReport.Size = new System.Drawing.Size(324, 46);
             this.buttonSlsReport.TabIndex = 15;
             this.buttonSlsReport.Text = "         Report";
             this.buttonSlsReport.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -435,10 +452,10 @@
             this.flowLayoutPanel2.Controls.Add(this.button2);
             this.flowLayoutPanel2.Controls.Add(this.button3);
             this.flowLayoutPanel2.Controls.Add(this.button4);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(6, 145);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(8, 181);
             this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(222, 37);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(296, 46);
             this.flowLayoutPanel2.TabIndex = 12;
             // 
             // buttonPurchase
@@ -451,10 +468,11 @@
             this.buttonPurchase.ForeColor = System.Drawing.Color.DarkGray;
             this.buttonPurchase.Image = ((System.Drawing.Image)(resources.GetObject("buttonPurchase.Image")));
             this.buttonPurchase.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonPurchase.Location = new System.Drawing.Point(3, 3);
+            this.buttonPurchase.Location = new System.Drawing.Point(4, 4);
+            this.buttonPurchase.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonPurchase.Name = "buttonPurchase";
-            this.buttonPurchase.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonPurchase.Size = new System.Drawing.Size(219, 37);
+            this.buttonPurchase.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.buttonPurchase.Size = new System.Drawing.Size(292, 46);
             this.buttonPurchase.TabIndex = 6;
             this.buttonPurchase.Text = "         Purchase    ";
             this.buttonPurchase.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -470,10 +488,11 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.DarkGray;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(3, 46);
+            this.button2.Location = new System.Drawing.Point(4, 58);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(243, 37);
+            this.button2.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button2.Size = new System.Drawing.Size(324, 46);
             this.button2.TabIndex = 7;
             this.button2.Text = "     Master";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -487,10 +506,11 @@
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.DarkGray;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(3, 89);
+            this.button3.Location = new System.Drawing.Point(4, 112);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(243, 37);
+            this.button3.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button3.Size = new System.Drawing.Size(324, 46);
             this.button3.TabIndex = 10;
             this.button3.Text = "     Transaction";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -504,10 +524,11 @@
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.DarkGray;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(3, 132);
+            this.button4.Location = new System.Drawing.Point(4, 166);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(243, 36);
+            this.button4.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button4.Size = new System.Drawing.Size(324, 44);
             this.button4.TabIndex = 11;
             this.button4.Text = "     Report";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -517,10 +538,10 @@
             // 
             this.flowLayoutPanel3.BackColor = System.Drawing.Color.Silver;
             this.flowLayoutPanel3.Controls.Add(this.flowLayoutPanel7);
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(6, 182);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(8, 227);
             this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(222, 37);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(296, 46);
             this.flowLayoutPanel3.TabIndex = 13;
             // 
             // flowLayoutPanel7
@@ -533,7 +554,7 @@
             this.flowLayoutPanel7.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel7.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel7.Name = "flowLayoutPanel7";
-            this.flowLayoutPanel7.Size = new System.Drawing.Size(222, 37);
+            this.flowLayoutPanel7.Size = new System.Drawing.Size(296, 46);
             this.flowLayoutPanel7.TabIndex = 14;
             // 
             // buttonInventory
@@ -546,10 +567,11 @@
             this.buttonInventory.ForeColor = System.Drawing.Color.DarkGray;
             this.buttonInventory.Image = ((System.Drawing.Image)(resources.GetObject("buttonInventory.Image")));
             this.buttonInventory.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonInventory.Location = new System.Drawing.Point(3, 3);
+            this.buttonInventory.Location = new System.Drawing.Point(4, 4);
+            this.buttonInventory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonInventory.Name = "buttonInventory";
-            this.buttonInventory.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonInventory.Size = new System.Drawing.Size(219, 37);
+            this.buttonInventory.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.buttonInventory.Size = new System.Drawing.Size(292, 46);
             this.buttonInventory.TabIndex = 6;
             this.buttonInventory.Text = "         Inventory    ";
             this.buttonInventory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -565,10 +587,11 @@
             this.button6.ForeColor = System.Drawing.Color.DarkGray;
             this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(3, 46);
+            this.button6.Location = new System.Drawing.Point(4, 58);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button6.Name = "button6";
-            this.button6.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button6.Size = new System.Drawing.Size(243, 37);
+            this.button6.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button6.Size = new System.Drawing.Size(324, 46);
             this.button6.TabIndex = 7;
             this.button6.Text = "     Master";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -583,10 +606,11 @@
             this.button7.ForeColor = System.Drawing.Color.DarkGray;
             this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(3, 89);
+            this.button7.Location = new System.Drawing.Point(4, 112);
+            this.button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button7.Name = "button7";
-            this.button7.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button7.Size = new System.Drawing.Size(243, 37);
+            this.button7.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button7.Size = new System.Drawing.Size(324, 46);
             this.button7.TabIndex = 10;
             this.button7.Text = "     Transaction";
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -601,10 +625,11 @@
             this.button8.ForeColor = System.Drawing.Color.DarkGray;
             this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
             this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.Location = new System.Drawing.Point(3, 132);
+            this.button8.Location = new System.Drawing.Point(4, 166);
+            this.button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button8.Name = "button8";
-            this.button8.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button8.Size = new System.Drawing.Size(243, 36);
+            this.button8.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button8.Size = new System.Drawing.Size(324, 44);
             this.button8.TabIndex = 11;
             this.button8.Text = "     Report";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -614,10 +639,10 @@
             // 
             this.flowLayoutPanel8.BackColor = System.Drawing.Color.Silver;
             this.flowLayoutPanel8.Controls.Add(this.flowLayoutPanel9);
-            this.flowLayoutPanel8.Location = new System.Drawing.Point(6, 219);
+            this.flowLayoutPanel8.Location = new System.Drawing.Point(8, 273);
             this.flowLayoutPanel8.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel8.Name = "flowLayoutPanel8";
-            this.flowLayoutPanel8.Size = new System.Drawing.Size(222, 37);
+            this.flowLayoutPanel8.Size = new System.Drawing.Size(296, 46);
             this.flowLayoutPanel8.TabIndex = 15;
             // 
             // flowLayoutPanel9
@@ -630,7 +655,7 @@
             this.flowLayoutPanel9.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel9.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel9.Name = "flowLayoutPanel9";
-            this.flowLayoutPanel9.Size = new System.Drawing.Size(222, 37);
+            this.flowLayoutPanel9.Size = new System.Drawing.Size(296, 46);
             this.flowLayoutPanel9.TabIndex = 14;
             // 
             // buttonProduction
@@ -643,10 +668,11 @@
             this.buttonProduction.ForeColor = System.Drawing.Color.DarkGray;
             this.buttonProduction.Image = ((System.Drawing.Image)(resources.GetObject("buttonProduction.Image")));
             this.buttonProduction.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonProduction.Location = new System.Drawing.Point(3, 3);
+            this.buttonProduction.Location = new System.Drawing.Point(4, 4);
+            this.buttonProduction.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonProduction.Name = "buttonProduction";
-            this.buttonProduction.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonProduction.Size = new System.Drawing.Size(219, 37);
+            this.buttonProduction.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.buttonProduction.Size = new System.Drawing.Size(292, 46);
             this.buttonProduction.TabIndex = 6;
             this.buttonProduction.Text = "         Production    ";
             this.buttonProduction.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -661,10 +687,11 @@
             this.button25.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button25.ForeColor = System.Drawing.Color.DarkGray;
             this.button25.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button25.Location = new System.Drawing.Point(3, 46);
+            this.button25.Location = new System.Drawing.Point(4, 58);
+            this.button25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button25.Name = "button25";
-            this.button25.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button25.Size = new System.Drawing.Size(243, 37);
+            this.button25.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button25.Size = new System.Drawing.Size(324, 46);
             this.button25.TabIndex = 7;
             this.button25.Text = "     Master";
             this.button25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -678,10 +705,11 @@
             this.button26.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button26.ForeColor = System.Drawing.Color.DarkGray;
             this.button26.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button26.Location = new System.Drawing.Point(3, 89);
+            this.button26.Location = new System.Drawing.Point(4, 112);
+            this.button26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button26.Name = "button26";
-            this.button26.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button26.Size = new System.Drawing.Size(243, 37);
+            this.button26.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button26.Size = new System.Drawing.Size(324, 46);
             this.button26.TabIndex = 10;
             this.button26.Text = "     Transaction";
             this.button26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -695,10 +723,11 @@
             this.button27.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button27.ForeColor = System.Drawing.Color.DarkGray;
             this.button27.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button27.Location = new System.Drawing.Point(3, 132);
+            this.button27.Location = new System.Drawing.Point(4, 166);
+            this.button27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button27.Name = "button27";
-            this.button27.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button27.Size = new System.Drawing.Size(243, 36);
+            this.button27.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button27.Size = new System.Drawing.Size(324, 44);
             this.button27.TabIndex = 11;
             this.button27.Text = "     Report";
             this.button27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -711,10 +740,10 @@
             this.flowLayoutPanel4.Controls.Add(this.button9);
             this.flowLayoutPanel4.Controls.Add(this.button10);
             this.flowLayoutPanel4.Controls.Add(this.button11);
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(6, 256);
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(8, 319);
             this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(222, 37);
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(296, 46);
             this.flowLayoutPanel4.TabIndex = 14;
             // 
             // buttonAccounting
@@ -727,10 +756,11 @@
             this.buttonAccounting.ForeColor = System.Drawing.Color.DarkGray;
             this.buttonAccounting.Image = ((System.Drawing.Image)(resources.GetObject("buttonAccounting.Image")));
             this.buttonAccounting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonAccounting.Location = new System.Drawing.Point(3, 3);
+            this.buttonAccounting.Location = new System.Drawing.Point(4, 4);
+            this.buttonAccounting.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonAccounting.Name = "buttonAccounting";
-            this.buttonAccounting.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonAccounting.Size = new System.Drawing.Size(219, 37);
+            this.buttonAccounting.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.buttonAccounting.Size = new System.Drawing.Size(292, 46);
             this.buttonAccounting.TabIndex = 6;
             this.buttonAccounting.Text = "         Accounting";
             this.buttonAccounting.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -745,10 +775,11 @@
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.DarkGray;
             this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(3, 46);
+            this.button9.Location = new System.Drawing.Point(4, 58);
+            this.button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button9.Name = "button9";
-            this.button9.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button9.Size = new System.Drawing.Size(243, 37);
+            this.button9.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button9.Size = new System.Drawing.Size(324, 46);
             this.button9.TabIndex = 7;
             this.button9.Text = "     Master";
             this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -762,10 +793,11 @@
             this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.ForeColor = System.Drawing.Color.DarkGray;
             this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.Location = new System.Drawing.Point(3, 89);
+            this.button10.Location = new System.Drawing.Point(4, 112);
+            this.button10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button10.Name = "button10";
-            this.button10.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button10.Size = new System.Drawing.Size(243, 37);
+            this.button10.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button10.Size = new System.Drawing.Size(324, 46);
             this.button10.TabIndex = 10;
             this.button10.Text = "     Transaction";
             this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -779,10 +811,11 @@
             this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.ForeColor = System.Drawing.Color.DarkGray;
             this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.Location = new System.Drawing.Point(3, 132);
+            this.button11.Location = new System.Drawing.Point(4, 166);
+            this.button11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button11.Name = "button11";
-            this.button11.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button11.Size = new System.Drawing.Size(243, 36);
+            this.button11.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button11.Size = new System.Drawing.Size(324, 44);
             this.button11.TabIndex = 11;
             this.button11.Text = "     Report";
             this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -795,10 +828,10 @@
             this.flowLayoutPanel5.Controls.Add(this.button13);
             this.flowLayoutPanel5.Controls.Add(this.button14);
             this.flowLayoutPanel5.Controls.Add(this.button15);
-            this.flowLayoutPanel5.Location = new System.Drawing.Point(6, 293);
+            this.flowLayoutPanel5.Location = new System.Drawing.Point(8, 365);
             this.flowLayoutPanel5.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel5.Name = "flowLayoutPanel5";
-            this.flowLayoutPanel5.Size = new System.Drawing.Size(222, 37);
+            this.flowLayoutPanel5.Size = new System.Drawing.Size(296, 46);
             this.flowLayoutPanel5.TabIndex = 15;
             // 
             // buttonUtility
@@ -811,10 +844,11 @@
             this.buttonUtility.ForeColor = System.Drawing.Color.DarkGray;
             this.buttonUtility.Image = ((System.Drawing.Image)(resources.GetObject("buttonUtility.Image")));
             this.buttonUtility.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonUtility.Location = new System.Drawing.Point(3, 3);
+            this.buttonUtility.Location = new System.Drawing.Point(4, 4);
+            this.buttonUtility.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonUtility.Name = "buttonUtility";
-            this.buttonUtility.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonUtility.Size = new System.Drawing.Size(219, 37);
+            this.buttonUtility.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.buttonUtility.Size = new System.Drawing.Size(292, 46);
             this.buttonUtility.TabIndex = 6;
             this.buttonUtility.Text = "         Utility    ";
             this.buttonUtility.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -830,10 +864,11 @@
             this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.ForeColor = System.Drawing.Color.DarkGray;
             this.button13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button13.Location = new System.Drawing.Point(3, 46);
+            this.button13.Location = new System.Drawing.Point(4, 58);
+            this.button13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button13.Name = "button13";
-            this.button13.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button13.Size = new System.Drawing.Size(243, 37);
+            this.button13.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button13.Size = new System.Drawing.Size(324, 46);
             this.button13.TabIndex = 7;
             this.button13.Text = "     Master";
             this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -847,10 +882,11 @@
             this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.ForeColor = System.Drawing.Color.DarkGray;
             this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button14.Location = new System.Drawing.Point(3, 89);
+            this.button14.Location = new System.Drawing.Point(4, 112);
+            this.button14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button14.Name = "button14";
-            this.button14.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button14.Size = new System.Drawing.Size(243, 37);
+            this.button14.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button14.Size = new System.Drawing.Size(324, 46);
             this.button14.TabIndex = 10;
             this.button14.Text = "     Transaction";
             this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -864,10 +900,11 @@
             this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.ForeColor = System.Drawing.Color.DarkGray;
             this.button15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button15.Location = new System.Drawing.Point(3, 132);
+            this.button15.Location = new System.Drawing.Point(4, 166);
+            this.button15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button15.Name = "button15";
-            this.button15.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button15.Size = new System.Drawing.Size(243, 36);
+            this.button15.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.button15.Size = new System.Drawing.Size(324, 44);
             this.button15.TabIndex = 11;
             this.button15.Text = "     Report";
             this.button15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -877,10 +914,10 @@
             // 
             this.flowLayoutPanel6.BackColor = System.Drawing.Color.White;
             this.flowLayoutPanel6.Controls.Add(this.buttonLogout);
-            this.flowLayoutPanel6.Location = new System.Drawing.Point(6, 330);
+            this.flowLayoutPanel6.Location = new System.Drawing.Point(8, 411);
             this.flowLayoutPanel6.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel6.Name = "flowLayoutPanel6";
-            this.flowLayoutPanel6.Size = new System.Drawing.Size(222, 37);
+            this.flowLayoutPanel6.Size = new System.Drawing.Size(296, 46);
             this.flowLayoutPanel6.TabIndex = 16;
             // 
             // buttonLogout
@@ -893,10 +930,11 @@
             this.buttonLogout.ForeColor = System.Drawing.Color.DarkGray;
             this.buttonLogout.Image = ((System.Drawing.Image)(resources.GetObject("buttonLogout.Image")));
             this.buttonLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonLogout.Location = new System.Drawing.Point(3, 3);
+            this.buttonLogout.Location = new System.Drawing.Point(4, 4);
+            this.buttonLogout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonLogout.Name = "buttonLogout";
-            this.buttonLogout.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.buttonLogout.Size = new System.Drawing.Size(219, 37);
+            this.buttonLogout.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.buttonLogout.Size = new System.Drawing.Size(292, 46);
             this.buttonLogout.TabIndex = 6;
             this.buttonLogout.Text = "         Logout    ";
             this.buttonLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -919,11 +957,12 @@
             this.extendedPanel1.BackColor = System.Drawing.Color.Transparent;
             this.extendedPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.extendedPanel1.DrawMode = ReaLTaiizor.Controls.ExtendedPanel.Drawer.Default;
-            this.extendedPanel1.Location = new System.Drawing.Point(244, 61);
+            this.extendedPanel1.Location = new System.Drawing.Point(325, 75);
+            this.extendedPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.extendedPanel1.MostInterval = 100;
             this.extendedPanel1.Name = "extendedPanel1";
             this.extendedPanel1.Opacity = 50;
-            this.extendedPanel1.Size = new System.Drawing.Size(1036, 1);
+            this.extendedPanel1.Size = new System.Drawing.Size(1382, 1);
             this.extendedPanel1.TabIndex = 5;
             this.extendedPanel1.TopMost = true;
             // 
@@ -935,17 +974,18 @@
             this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.logoUser);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(244, 26);
+            this.panel5.Location = new System.Drawing.Point(325, 32);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1036, 35);
+            this.panel5.Size = new System.Drawing.Size(1382, 43);
             this.panel5.TabIndex = 6;
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1280, 788);
+            this.ClientSize = new System.Drawing.Size(1707, 970);
             this.Controls.Add(this.extendedPanel1);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.sidebar);
@@ -954,6 +994,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form3";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
