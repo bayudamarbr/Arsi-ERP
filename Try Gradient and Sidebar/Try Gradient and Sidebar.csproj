@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -51,6 +66,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormSalesContact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesContact.Designer.cs">
+      <DependentUpon>FormSalesContact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSalesContactCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesContactCreate.Designer.cs">
+      <DependentUpon>FormSalesContactCreate.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSalesCusAccounting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +144,30 @@
     <Compile Include="FormSalesCusInvoice.Designer.cs">
       <DependentUpon>FormSalesCusInvoice.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSalesDeliverOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesDeliverOrder.Designer.cs">
+      <DependentUpon>FormSalesDeliverOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSalesOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesOrders.Designer.cs">
+      <DependentUpon>FormSalesOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSalesProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesProduct.Designer.cs">
+      <DependentUpon>FormSalesProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSalesQuotations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesQuotations.Designer.cs">
+      <DependentUpon>FormSalesQuotations.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -130,6 +181,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormDashboard.resx">
       <DependentUpon>FormDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesContact.resx">
+      <DependentUpon>FormSalesContact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesContactCreate.resx">
+      <DependentUpon>FormSalesContactCreate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSalesCus.resx">
       <DependentUpon>FormSalesCus.cs</DependentUpon>
@@ -151,6 +208,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormSalesCusInvoice.resx">
       <DependentUpon>FormSalesCusInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesDeliverOrder.resx">
+      <DependentUpon>FormSalesDeliverOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesOrders.resx">
+      <DependentUpon>FormSalesOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesProduct.resx">
+      <DependentUpon>FormSalesProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesQuotations.resx">
+      <DependentUpon>FormSalesQuotations.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -174,6 +243,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

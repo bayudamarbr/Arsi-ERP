@@ -130,5 +130,10 @@ namespace Try_Gradient_and_Sidebar
         {
             createAccounting = null;
         }
+
+        private void buttonAccounting_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

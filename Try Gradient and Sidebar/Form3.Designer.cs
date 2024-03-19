@@ -50,6 +50,11 @@
             this.buttonSO = new System.Windows.Forms.Button();
             this.buttonDO = new System.Windows.Forms.Button();
             this.buttonSlsReport = new System.Windows.Forms.Button();
+            this.buttonSalesman = new System.Windows.Forms.Button();
+            this.buttonSM = new System.Windows.Forms.Button();
+            this.buttonSD = new System.Windows.Forms.Button();
+            this.buttonTS = new System.Windows.Forms.Button();
+            this.buttonCT = new System.Windows.Forms.Button();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.buttonPurchase = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -174,6 +179,7 @@
             // 
             // slideNav
             // 
+            this.slideNav.Cursor = System.Windows.Forms.Cursors.Hand;
             this.slideNav.Image = ((System.Drawing.Image)(resources.GetObject("slideNav.Image")));
             this.slideNav.Location = new System.Drawing.Point(9, 10);
             this.slideNav.Name = "slideNav";
@@ -268,6 +274,11 @@
             this.flowLayoutPanelSales.Controls.Add(this.buttonSO);
             this.flowLayoutPanelSales.Controls.Add(this.buttonDO);
             this.flowLayoutPanelSales.Controls.Add(this.buttonSlsReport);
+            this.flowLayoutPanelSales.Controls.Add(this.buttonSalesman);
+            this.flowLayoutPanelSales.Controls.Add(this.buttonSM);
+            this.flowLayoutPanelSales.Controls.Add(this.buttonSD);
+            this.flowLayoutPanelSales.Controls.Add(this.buttonTS);
+            this.flowLayoutPanelSales.Controls.Add(this.buttonCT);
             this.flowLayoutPanelSales.Location = new System.Drawing.Point(6, 108);
             this.flowLayoutPanelSales.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanelSales.Name = "flowLayoutPanelSales";
@@ -427,6 +438,96 @@
             this.buttonSlsReport.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonSlsReport.UseVisualStyleBackColor = false;
             this.buttonSlsReport.Click += new System.EventHandler(this.buttonSlsReport_Click);
+            // 
+            // buttonSalesman
+            // 
+            this.buttonSalesman.BackColor = System.Drawing.Color.White;
+            this.buttonSalesman.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonSalesman.FlatAppearance.BorderSize = 0;
+            this.buttonSalesman.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSalesman.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSalesman.ForeColor = System.Drawing.Color.IndianRed;
+            this.buttonSalesman.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonSalesman.Location = new System.Drawing.Point(3, 346);
+            this.buttonSalesman.Name = "buttonSalesman";
+            this.buttonSalesman.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.buttonSalesman.Size = new System.Drawing.Size(243, 37);
+            this.buttonSalesman.TabIndex = 16;
+            this.buttonSalesman.Text = "         Salesman    ";
+            this.buttonSalesman.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.buttonSalesman.UseVisualStyleBackColor = false;
+            // 
+            // buttonSM
+            // 
+            this.buttonSM.BackColor = System.Drawing.Color.White;
+            this.buttonSM.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonSM.FlatAppearance.BorderSize = 0;
+            this.buttonSM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSM.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSM.ForeColor = System.Drawing.Color.IndianRed;
+            this.buttonSM.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonSM.Location = new System.Drawing.Point(3, 389);
+            this.buttonSM.Name = "buttonSM";
+            this.buttonSM.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.buttonSM.Size = new System.Drawing.Size(243, 37);
+            this.buttonSM.TabIndex = 17;
+            this.buttonSM.Text = "         Sales Manager    ";
+            this.buttonSM.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.buttonSM.UseVisualStyleBackColor = false;
+            // 
+            // buttonSD
+            // 
+            this.buttonSD.BackColor = System.Drawing.Color.White;
+            this.buttonSD.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonSD.FlatAppearance.BorderSize = 0;
+            this.buttonSD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSD.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSD.ForeColor = System.Drawing.Color.IndianRed;
+            this.buttonSD.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonSD.Location = new System.Drawing.Point(3, 432);
+            this.buttonSD.Name = "buttonSD";
+            this.buttonSD.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.buttonSD.Size = new System.Drawing.Size(243, 37);
+            this.buttonSD.TabIndex = 18;
+            this.buttonSD.Text = "         Sales Detail    ";
+            this.buttonSD.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.buttonSD.UseVisualStyleBackColor = false;
+            // 
+            // buttonTS
+            // 
+            this.buttonTS.BackColor = System.Drawing.Color.White;
+            this.buttonTS.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonTS.FlatAppearance.BorderSize = 0;
+            this.buttonTS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonTS.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonTS.ForeColor = System.Drawing.Color.IndianRed;
+            this.buttonTS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonTS.Location = new System.Drawing.Point(3, 475);
+            this.buttonTS.Name = "buttonTS";
+            this.buttonTS.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.buttonTS.Size = new System.Drawing.Size(243, 37);
+            this.buttonTS.TabIndex = 19;
+            this.buttonTS.Text = "         Turnover Study    ";
+            this.buttonTS.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.buttonTS.UseVisualStyleBackColor = false;
+            // 
+            // buttonCT
+            // 
+            this.buttonCT.BackColor = System.Drawing.Color.White;
+            this.buttonCT.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonCT.FlatAppearance.BorderSize = 0;
+            this.buttonCT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCT.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCT.ForeColor = System.Drawing.Color.IndianRed;
+            this.buttonCT.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonCT.Location = new System.Drawing.Point(3, 518);
+            this.buttonCT.Name = "buttonCT";
+            this.buttonCT.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.buttonCT.Size = new System.Drawing.Size(243, 37);
+            this.buttonCT.TabIndex = 20;
+            this.buttonCT.Text = "         Customers    ";
+            this.buttonCT.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.buttonCT.UseVisualStyleBackColor = false;
             // 
             // flowLayoutPanel2
             // 
@@ -906,6 +1007,7 @@
             // 
             // menuTransition1
             // 
+            this.menuTransition1.Enabled = true;
             this.menuTransition1.Interval = 10;
             this.menuTransition1.Tick += new System.EventHandler(this.menuTransition1_Tick);
             // 
@@ -939,6 +1041,7 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1036, 35);
             this.panel5.TabIndex = 6;
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // Form3
             // 
@@ -1032,6 +1135,11 @@
         private System.Windows.Forms.Button buttonSO;
         private System.Windows.Forms.Button buttonDO;
         private System.Windows.Forms.Button buttonSlsReport;
+        private System.Windows.Forms.Button buttonSalesman;
+        private System.Windows.Forms.Button buttonSM;
+        private System.Windows.Forms.Button buttonSD;
+        private System.Windows.Forms.Button buttonTS;
+        private System.Windows.Forms.Button buttonCT;
     }
 }
 

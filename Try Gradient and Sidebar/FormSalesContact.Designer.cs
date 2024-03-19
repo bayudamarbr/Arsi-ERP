@@ -1,6 +1,6 @@
 ﻿namespace Try_Gradient_and_Sidebar
 {
-    partial class FormSalesCus
+    partial class FormSalesContact
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSalesCus));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSalesContact));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -42,21 +42,12 @@
             this.search = new System.Windows.Forms.PictureBox();
             this.tbSearch = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.cust_code = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cust_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cust_type = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.currency = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.npwp_number = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.npwp_nampe = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.skt = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nib = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.mobile_no = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.term_of_payment = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bank_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.rekening = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ppn_stat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.account_no = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameContact = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fixedPhone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mobilePhone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mainCompany = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fuction = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -87,7 +78,8 @@
             this.panel1.MaximumSize = new System.Drawing.Size(1200, 39);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(961, 39);
-            this.panel1.TabIndex = 0;
+            this.panel1.TabIndex = 1;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label1
             // 
@@ -188,7 +180,6 @@
             this.tbSearch.Size = new System.Drawing.Size(171, 22);
             this.tbSearch.TabIndex = 0;
             this.tbSearch.Text = "Search...";
-            this.tbSearch.TextChanged += new System.EventHandler(this.tbSearch_TextChanged);
             // 
             // dataGridView1
             // 
@@ -206,21 +197,12 @@
             this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.cust_code,
-            this.cust_name,
-            this.cust_type,
-            this.currency,
-            this.npwp_number,
-            this.npwp_nampe,
-            this.skt,
-            this.nib,
-            this.phone,
-            this.mobile_no,
-            this.term_of_payment,
-            this.bank_name,
-            this.rekening,
-            this.ppn_stat,
-            this.account_no});
+            this.nameContact,
+            this.fixedPhone,
+            this.mobilePhone,
+            this.email,
+            this.mainCompany,
+            this.fuction});
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -235,86 +217,45 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.dataGridView1.Size = new System.Drawing.Size(961, 561);
-            this.dataGridView1.TabIndex = 1;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridView1.TabIndex = 2;
             // 
-            // cust_code
+            // nameContact
             // 
-            this.cust_code.HeaderText = "Cust Code";
-            this.cust_code.Name = "cust_code";
-            this.cust_code.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.nameContact.HeaderText = "Name";
+            this.nameContact.Name = "nameContact";
+            this.nameContact.Width = 150;
             // 
-            // cust_name
+            // fixedPhone
             // 
-            this.cust_name.HeaderText = "Cust Name";
-            this.cust_name.Name = "cust_name";
+            this.fixedPhone.HeaderText = "Fixed Phone";
+            this.fixedPhone.Name = "fixedPhone";
+            this.fixedPhone.Width = 150;
             // 
-            // cust_type
+            // mobilePhone
             // 
-            this.cust_type.HeaderText = "Cust Type";
-            this.cust_type.Name = "cust_type";
+            this.mobilePhone.HeaderText = "Mobile Phone";
+            this.mobilePhone.Name = "mobilePhone";
+            this.mobilePhone.Width = 150;
             // 
-            // currency
+            // email
             // 
-            this.currency.HeaderText = "Currency";
-            this.currency.Name = "currency";
+            this.email.HeaderText = "Email";
+            this.email.Name = "email";
+            this.email.Width = 150;
             // 
-            // npwp_number
+            // mainCompany
             // 
-            this.npwp_number.HeaderText = "NPWP Number";
-            this.npwp_number.Name = "npwp_number";
+            this.mainCompany.HeaderText = "Main Company";
+            this.mainCompany.Name = "mainCompany";
+            this.mainCompany.Width = 150;
             // 
-            // npwp_nampe
+            // fuction
             // 
-            this.npwp_nampe.HeaderText = "NPWP Name";
-            this.npwp_nampe.Name = "npwp_nampe";
+            this.fuction.HeaderText = "Fuction";
+            this.fuction.Name = "fuction";
+            this.fuction.Width = 200;
             // 
-            // skt
-            // 
-            this.skt.HeaderText = "SKT";
-            this.skt.Name = "skt";
-            // 
-            // nib
-            // 
-            this.nib.HeaderText = "NIB";
-            this.nib.Name = "nib";
-            // 
-            // phone
-            // 
-            this.phone.HeaderText = "Phone";
-            this.phone.Name = "phone";
-            // 
-            // mobile_no
-            // 
-            this.mobile_no.HeaderText = "Mobile No.";
-            this.mobile_no.Name = "mobile_no";
-            // 
-            // term_of_payment
-            // 
-            this.term_of_payment.HeaderText = "Term of Payment";
-            this.term_of_payment.Name = "term_of_payment";
-            // 
-            // bank_name
-            // 
-            this.bank_name.HeaderText = "Bank Name";
-            this.bank_name.Name = "bank_name";
-            // 
-            // rekening
-            // 
-            this.rekening.HeaderText = "Rekening";
-            this.rekening.Name = "rekening";
-            // 
-            // ppn_stat
-            // 
-            this.ppn_stat.HeaderText = "PPN Stat";
-            this.ppn_stat.Name = "ppn_stat";
-            // 
-            // account_no
-            // 
-            this.account_no.HeaderText = "Account No.";
-            this.account_no.Name = "account_no";
-            // 
-            // FormSalesCus
+            // FormSalesContact
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -322,11 +263,9 @@
             this.ClientSize = new System.Drawing.Size(1036, 762);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
-            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FormSalesCus";
-            this.Text = "CUSTOMER DATA";
-            this.Load += new System.EventHandler(this.FormSalesCus_Load);
+            this.Name = "FormSalesContact";
+            this.Text = "Contact Data";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -344,30 +283,21 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox tbSearch;
-        private System.Windows.Forms.PictureBox search;
-        private System.Windows.Forms.PictureBox create;
-        private System.Windows.Forms.PictureBox refresh;
-        private System.Windows.Forms.PictureBox edit;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox excel;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox excel;
+        private System.Windows.Forms.PictureBox refresh;
+        private System.Windows.Forms.PictureBox edit;
+        private System.Windows.Forms.PictureBox create;
+        private System.Windows.Forms.PictureBox search;
+        private System.Windows.Forms.TextBox tbSearch;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cust_code;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cust_name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cust_type;
-        private System.Windows.Forms.DataGridViewTextBoxColumn currency;
-        private System.Windows.Forms.DataGridViewTextBoxColumn npwp_number;
-        private System.Windows.Forms.DataGridViewTextBoxColumn npwp_nampe;
-        private System.Windows.Forms.DataGridViewTextBoxColumn skt;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nib;
-        private System.Windows.Forms.DataGridViewTextBoxColumn phone;
-        private System.Windows.Forms.DataGridViewTextBoxColumn mobile_no;
-        private System.Windows.Forms.DataGridViewTextBoxColumn term_of_payment;
-        private System.Windows.Forms.DataGridViewTextBoxColumn bank_name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn rekening;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ppn_stat;
-        private System.Windows.Forms.DataGridViewTextBoxColumn account_no;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nameContact;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fixedPhone;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mobilePhone;
+        private System.Windows.Forms.DataGridViewTextBoxColumn email;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mainCompany;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fuction;
     }
 }

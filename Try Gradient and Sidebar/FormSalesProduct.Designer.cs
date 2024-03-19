@@ -1,6 +1,6 @@
 ﻿namespace Try_Gradient_and_Sidebar
 {
-    partial class FormSalesCus
+    partial class FormSalesProduct
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSalesCus));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSalesProduct));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -40,24 +39,28 @@
             this.edit = new System.Windows.Forms.PictureBox();
             this.create = new System.Windows.Forms.PictureBox();
             this.search = new System.Windows.Forms.PictureBox();
-            this.tbSearch = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.cust_code = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cust_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cust_type = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.currency = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.npwp_number = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.npwp_nampe = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.skt = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nib = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.mobile_no = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.term_of_payment = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bank_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.rekening = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ppn_stat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.account_no = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panel1.SuspendLayout();
+            this.tbSearch = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.dwgNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CustID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.vendID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.customer = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sales = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.type = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameLocal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.export = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.partNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rubber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.qtyBox = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.parcel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.priceLocal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.export2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.standardBox = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.weight = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.packing = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.weight2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.depoCust = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.excel)).BeginInit();
@@ -66,28 +69,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.create)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.search)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.pictureBox5);
-            this.panel1.Controls.Add(this.pictureBox6);
-            this.panel1.Controls.Add(this.excel);
-            this.panel1.Controls.Add(this.refresh);
-            this.panel1.Controls.Add(this.edit);
-            this.panel1.Controls.Add(this.create);
-            this.panel1.Controls.Add(this.search);
-            this.panel1.Controls.Add(this.tbSearch);
-            this.panel1.Location = new System.Drawing.Point(34, 27);
-            this.panel1.MaximumSize = new System.Drawing.Size(1200, 39);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(961, 39);
-            this.panel1.TabIndex = 0;
             // 
             // label1
             // 
@@ -166,7 +149,6 @@
             this.create.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.create.TabIndex = 1;
             this.create.TabStop = false;
-            this.create.Click += new System.EventHandler(this.create_Click);
             // 
             // search
             // 
@@ -179,17 +161,6 @@
             this.search.TabIndex = 1;
             this.search.TabStop = false;
             // 
-            // tbSearch
-            // 
-            this.tbSearch.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSearch.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.tbSearch.Location = new System.Drawing.Point(7, 8);
-            this.tbSearch.Name = "tbSearch";
-            this.tbSearch.Size = new System.Drawing.Size(171, 22);
-            this.tbSearch.TabIndex = 0;
-            this.tbSearch.Text = "Search...";
-            this.tbSearch.TextChanged += new System.EventHandler(this.tbSearch_TextChanged);
-            // 
             // dataGridView1
             // 
             this.dataGridView1.AccessibleName = "Customer Data";
@@ -201,26 +172,30 @@
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.cust_code,
-            this.cust_name,
-            this.cust_type,
-            this.currency,
-            this.npwp_number,
-            this.npwp_nampe,
-            this.skt,
-            this.nib,
-            this.phone,
-            this.mobile_no,
-            this.term_of_payment,
-            this.bank_name,
-            this.rekening,
-            this.ppn_stat,
-            this.account_no});
+            this.dwgNo,
+            this.CustID,
+            this.vendID,
+            this.customer,
+            this.sales,
+            this.type,
+            this.nameLocal,
+            this.export,
+            this.partNumber,
+            this.rubber,
+            this.qtyBox,
+            this.parcel,
+            this.priceLocal,
+            this.export2,
+            this.standardBox,
+            this.weight,
+            this.packing,
+            this.weight2,
+            this.depoCust});
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -235,86 +210,135 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.dataGridView1.Size = new System.Drawing.Size(961, 561);
-            this.dataGridView1.TabIndex = 1;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridView1.TabIndex = 4;
             // 
-            // cust_code
+            // tbSearch
             // 
-            this.cust_code.HeaderText = "Cust Code";
-            this.cust_code.Name = "cust_code";
-            this.cust_code.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.tbSearch.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbSearch.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.tbSearch.Location = new System.Drawing.Point(7, 8);
+            this.tbSearch.Name = "tbSearch";
+            this.tbSearch.Size = new System.Drawing.Size(171, 22);
+            this.tbSearch.TabIndex = 0;
+            this.tbSearch.Text = "Search...";
             // 
-            // cust_name
+            // panel1
             // 
-            this.cust_name.HeaderText = "Cust Name";
-            this.cust_name.Name = "cust_name";
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.pictureBox5);
+            this.panel1.Controls.Add(this.pictureBox6);
+            this.panel1.Controls.Add(this.excel);
+            this.panel1.Controls.Add(this.refresh);
+            this.panel1.Controls.Add(this.edit);
+            this.panel1.Controls.Add(this.create);
+            this.panel1.Controls.Add(this.search);
+            this.panel1.Controls.Add(this.tbSearch);
+            this.panel1.Location = new System.Drawing.Point(34, 27);
+            this.panel1.MaximumSize = new System.Drawing.Size(1200, 39);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(961, 39);
+            this.panel1.TabIndex = 3;
             // 
-            // cust_type
+            // dwgNo
             // 
-            this.cust_type.HeaderText = "Cust Type";
-            this.cust_type.Name = "cust_type";
+            this.dwgNo.HeaderText = "Dwg no";
+            this.dwgNo.Name = "dwgNo";
             // 
-            // currency
+            // CustID
             // 
-            this.currency.HeaderText = "Currency";
-            this.currency.Name = "currency";
+            this.CustID.HeaderText = "Cust ID";
+            this.CustID.Name = "CustID";
             // 
-            // npwp_number
+            // vendID
             // 
-            this.npwp_number.HeaderText = "NPWP Number";
-            this.npwp_number.Name = "npwp_number";
+            this.vendID.HeaderText = "Vend ID";
+            this.vendID.Name = "vendID";
             // 
-            // npwp_nampe
+            // customer
             // 
-            this.npwp_nampe.HeaderText = "NPWP Name";
-            this.npwp_nampe.Name = "npwp_nampe";
+            this.customer.HeaderText = "Customer";
+            this.customer.Name = "customer";
             // 
-            // skt
+            // sales
             // 
-            this.skt.HeaderText = "SKT";
-            this.skt.Name = "skt";
+            this.sales.HeaderText = "Sales";
+            this.sales.Name = "sales";
             // 
-            // nib
+            // type
             // 
-            this.nib.HeaderText = "NIB";
-            this.nib.Name = "nib";
+            this.type.HeaderText = "Type";
+            this.type.Name = "type";
             // 
-            // phone
+            // nameLocal
             // 
-            this.phone.HeaderText = "Phone";
-            this.phone.Name = "phone";
+            this.nameLocal.HeaderText = "Name Local";
+            this.nameLocal.Name = "nameLocal";
             // 
-            // mobile_no
+            // export
             // 
-            this.mobile_no.HeaderText = "Mobile No.";
-            this.mobile_no.Name = "mobile_no";
+            this.export.HeaderText = "Export";
+            this.export.Name = "export";
             // 
-            // term_of_payment
+            // partNumber
             // 
-            this.term_of_payment.HeaderText = "Term of Payment";
-            this.term_of_payment.Name = "term_of_payment";
+            this.partNumber.HeaderText = "Part Number";
+            this.partNumber.Name = "partNumber";
             // 
-            // bank_name
+            // rubber
             // 
-            this.bank_name.HeaderText = "Bank Name";
-            this.bank_name.Name = "bank_name";
+            this.rubber.HeaderText = "Rubber";
+            this.rubber.Name = "rubber";
             // 
-            // rekening
+            // qtyBox
             // 
-            this.rekening.HeaderText = "Rekening";
-            this.rekening.Name = "rekening";
+            this.qtyBox.HeaderText = "QTY Box";
+            this.qtyBox.Name = "qtyBox";
             // 
-            // ppn_stat
+            // parcel
             // 
-            this.ppn_stat.HeaderText = "PPN Stat";
-            this.ppn_stat.Name = "ppn_stat";
+            this.parcel.HeaderText = "Parcel";
+            this.parcel.Name = "parcel";
             // 
-            // account_no
+            // priceLocal
             // 
-            this.account_no.HeaderText = "Account No.";
-            this.account_no.Name = "account_no";
+            this.priceLocal.HeaderText = "Price Local";
+            this.priceLocal.Name = "priceLocal";
             // 
-            // FormSalesCus
+            // export2
+            // 
+            this.export2.HeaderText = "Export";
+            this.export2.Name = "export2";
+            // 
+            // standardBox
+            // 
+            this.standardBox.HeaderText = "Standard Box";
+            this.standardBox.Name = "standardBox";
+            // 
+            // weight
+            // 
+            this.weight.HeaderText = "Weight";
+            this.weight.Name = "weight";
+            // 
+            // packing
+            // 
+            this.packing.HeaderText = "Packing";
+            this.packing.Name = "packing";
+            // 
+            // weight2
+            // 
+            this.weight2.HeaderText = "Weight";
+            this.weight2.Name = "weight2";
+            // 
+            // depoCust
+            // 
+            this.depoCust.HeaderText = "Depo Cust";
+            this.depoCust.Name = "depoCust";
+            // 
+            // FormSalesProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -322,13 +346,9 @@
             this.ClientSize = new System.Drawing.Size(1036, 762);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
-            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FormSalesCus";
-            this.Text = "CUSTOMER DATA";
-            this.Load += new System.EventHandler(this.FormSalesCus_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.Name = "FormSalesProduct";
+            this.Text = "FormSalesProduct";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.excel)).EndInit();
@@ -337,37 +357,42 @@
             ((System.ComponentModel.ISupportInitialize)(this.create)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.search)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox tbSearch;
-        private System.Windows.Forms.PictureBox search;
-        private System.Windows.Forms.PictureBox create;
-        private System.Windows.Forms.PictureBox refresh;
-        private System.Windows.Forms.PictureBox edit;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox excel;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox excel;
+        private System.Windows.Forms.PictureBox refresh;
+        private System.Windows.Forms.PictureBox edit;
+        private System.Windows.Forms.PictureBox create;
+        private System.Windows.Forms.PictureBox search;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cust_code;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cust_name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cust_type;
-        private System.Windows.Forms.DataGridViewTextBoxColumn currency;
-        private System.Windows.Forms.DataGridViewTextBoxColumn npwp_number;
-        private System.Windows.Forms.DataGridViewTextBoxColumn npwp_nampe;
-        private System.Windows.Forms.DataGridViewTextBoxColumn skt;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nib;
-        private System.Windows.Forms.DataGridViewTextBoxColumn phone;
-        private System.Windows.Forms.DataGridViewTextBoxColumn mobile_no;
-        private System.Windows.Forms.DataGridViewTextBoxColumn term_of_payment;
-        private System.Windows.Forms.DataGridViewTextBoxColumn bank_name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn rekening;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ppn_stat;
-        private System.Windows.Forms.DataGridViewTextBoxColumn account_no;
+        private System.Windows.Forms.TextBox tbSearch;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dwgNo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CustID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn vendID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn customer;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sales;
+        private System.Windows.Forms.DataGridViewTextBoxColumn type;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nameLocal;
+        private System.Windows.Forms.DataGridViewTextBoxColumn export;
+        private System.Windows.Forms.DataGridViewTextBoxColumn partNumber;
+        private System.Windows.Forms.DataGridViewTextBoxColumn rubber;
+        private System.Windows.Forms.DataGridViewTextBoxColumn qtyBox;
+        private System.Windows.Forms.DataGridViewTextBoxColumn parcel;
+        private System.Windows.Forms.DataGridViewTextBoxColumn priceLocal;
+        private System.Windows.Forms.DataGridViewTextBoxColumn export2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn standardBox;
+        private System.Windows.Forms.DataGridViewTextBoxColumn weight;
+        private System.Windows.Forms.DataGridViewTextBoxColumn packing;
+        private System.Windows.Forms.DataGridViewTextBoxColumn weight2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn depoCust;
     }
 }

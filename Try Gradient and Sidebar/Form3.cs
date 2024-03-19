@@ -16,6 +16,11 @@ namespace Try_Gradient_and_Sidebar
         FormSalesCus salesCus;
         FormDashboard dashboard;
         FormSalesCusCreateInformation salesCusCreate;
+        FormSalesContact salesContact;
+        FormSalesProduct salesProduct;
+        FormSalesQuotations salesQuotations;
+        FormSalesOrders salesOrders;
+        FormSalesDeliverOrder salesDelivery;
         public Form3(string username)
         {
             InitializeComponent();
@@ -156,6 +161,12 @@ namespace Try_Gradient_and_Sidebar
                     buttonSO.Width = 48;
                     buttonDO.Width = 48;
                     buttonSlsReport.Width = 48;
+                    buttonSalesman.Width = 48;
+                    buttonSM.Width = 48;
+                    buttonSD.Width = 48;
+                    buttonTS.Width = 48;
+                    buttonCT.Width = 48;
+
 
 
                 }
@@ -182,6 +193,11 @@ namespace Try_Gradient_and_Sidebar
                     buttonSO.Width = sidebar.Width;
                     buttonDO.Width = sidebar.Width;
                     buttonSlsReport.Width = sidebar.Width;
+                    buttonSalesman.Width = sidebar.Width;
+                    buttonSM.Width = sidebar.Width;
+                    buttonSD.Width = sidebar.Width;
+                    buttonTS.Width = sidebar.Width;
+                    buttonCT.Width = sidebar.Width;
                 }
             }
         }
@@ -216,11 +232,13 @@ namespace Try_Gradient_and_Sidebar
         private void Form3_Load(object sender, EventArgs e)
         {
             UpdateDashboardLabel();
+            buttonSales.Height = 37;
         }
 
         private void Form3_MdiChildActivate(object sender, EventArgs e)
         {
             UpdateDashboardLabel();
+            buttonSales.Height = 37;
         }
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
@@ -351,32 +369,146 @@ namespace Try_Gradient_and_Sidebar
 
         private void buttonSalesContacts_Click(object sender, EventArgs e)
         {
+            if (salesContact == null)
+            {
+                salesContact = new FormSalesContact();
+                salesContact.FormClosed += salesContact_FormClosed;
+                salesContact.MdiParent = this;
+                salesContact.Dock = DockStyle.Fill;
+                salesContact.Show();
+            }
+            else
+            {
+                salesContact.Activate();
+            }
+        }
 
+        private void salesContact_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            salesContact = null;
         }
 
         private void buttonSalesProducts_Click(object sender, EventArgs e)
         {
+            if (salesProduct == null)
+            {
+                salesProduct = new FormSalesProduct();
+                salesProduct.FormClosed += salesProduct_FormClosed;
+                salesProduct.MdiParent = this;
+                salesProduct.Dock = DockStyle.Fill;
+                salesProduct.Show();
+            }
+            else
+            {
+                salesProduct.Activate();
+            }
+        }
 
+        private void salesProduct_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            salesProduct = null;
         }
 
         private void buttonSQ_Click(object sender, EventArgs e)
         {
+            if (salesQuotations == null)
+            {
+                salesQuotations = new FormSalesQuotations();
+                salesQuotations.FormClosed += salesQuotations_FormClosed;
+                salesQuotations.MdiParent = this;
+                salesQuotations.Dock = DockStyle.Fill;
+                salesQuotations.Show();
+            }
+            else
+            {
+                salesQuotations.Activate();
+            }
+        }
 
+        private void salesQuotations_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            salesQuotations = null;
         }
 
         private void buttonSO_Click(object sender, EventArgs e)
         {
+            if (salesOrders == null)
+            {
+                salesOrders = new FormSalesOrders();
+                salesOrders.FormClosed += salesOrders_FormClosed;
+                salesOrders.MdiParent = this;
+                salesOrders.Dock = DockStyle.Fill;
+                salesOrders.Show();
+            }
+            else
+            {
+                salesOrders.Activate();
+            }
+        }
 
+        private void salesOrders_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            salesOrders = null;
         }
 
         private void buttonDO_Click(object sender, EventArgs e)
         {
+            if (salesDelivery == null)
+            {
+                salesDelivery = new FormSalesDeliverOrder();
+                salesDelivery.FormClosed += salesDelivery_FormClosed;
+                salesDelivery.MdiParent = this;
+                salesDelivery.Dock = DockStyle.Fill;
+                salesDelivery.Show();
+            }
+            else
+            {
+                salesDelivery.Activate();
+            }
+        }
 
+        private void salesDelivery_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            salesDelivery = null;
         }
 
         private void buttonSlsReport_Click(object sender, EventArgs e)
         {
+            if (menuExpand)
+            {
+                // Menghentikan timer transisi jika sedang berjalan
+                menuTransition1.Stop();
+
+                // Memperbarui tinggi flowLayoutPanelSales menjadi 518
+                flowLayoutPanelSales.Height = 518;
+
+                // Memulai kembali timer transisi
+                menuTransition1.Start();
+            }
+            else
+            {
+                // Menghentikan timer transisi jika sedang berjalan
+                menuTransition1.Stop();
+
+                // Memperbarui tinggi flowLayoutPanelSales menjadi 333
+                flowLayoutPanelSales.Height = 333;
+
+                // Memulai kembali timer transisi
+                menuTransition1.Start();
+            }
+        }
+
+
+
+
+
+
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
 
         }
+
+
     }
 }

@@ -295,6 +295,7 @@
             this.buttonAccounting.TabIndex = 24;
             this.buttonAccounting.Text = "Accounting Situation";
             this.buttonAccounting.UseVisualStyleBackColor = true;
+            this.buttonAccounting.Click += new System.EventHandler(this.buttonAccounting_Click);
             // 
             // buttonInvoice
             // 
@@ -438,6 +439,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1020, 723);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel4);
