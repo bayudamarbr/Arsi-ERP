@@ -69,7 +69,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.textBoxCA = new System.Windows.Forms.TextBox();
+            this.textBoxShipment = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.checkBoxProspect = new System.Windows.Forms.CheckBox();
@@ -285,7 +285,7 @@
             this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.label2);
             this.panel5.Controls.Add(this.pictureBox2);
-            this.panel5.Controls.Add(this.textBoxCA);
+            this.panel5.Controls.Add(this.textBoxShipment);
             this.panel5.Controls.Add(this.label5);
             this.panel5.Location = new System.Drawing.Point(34, 208);
             this.panel5.Name = "panel5";
@@ -517,16 +517,16 @@
             this.pictureBox2.TabIndex = 36;
             this.pictureBox2.TabStop = false;
             // 
-            // textBoxCA
+            // textBoxShipment
             // 
-            this.textBoxCA.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.textBoxCA.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxCA.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBoxCA.Location = new System.Drawing.Point(13, 30);
-            this.textBoxCA.Name = "textBoxCA";
-            this.textBoxCA.Size = new System.Drawing.Size(450, 22);
-            this.textBoxCA.TabIndex = 35;
-            this.textBoxCA.Text = "...";
+            this.textBoxShipment.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.textBoxShipment.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxShipment.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxShipment.Location = new System.Drawing.Point(13, 30);
+            this.textBoxShipment.Name = "textBoxShipment";
+            this.textBoxShipment.Size = new System.Drawing.Size(450, 22);
+            this.textBoxShipment.TabIndex = 35;
+            this.textBoxShipment.Text = "...";
             // 
             // label5
             // 
@@ -687,7 +687,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.TextBox textBoxCA;
+        private System.Windows.Forms.TextBox textBoxShipment;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.CheckBox checkBox1;

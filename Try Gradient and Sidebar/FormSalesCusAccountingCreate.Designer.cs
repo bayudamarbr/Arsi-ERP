@@ -49,7 +49,7 @@
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.FiscayYear = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Amount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBoxAutomaticMail = new System.Windows.Forms.CheckBox();
             this.label6 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
@@ -128,7 +128,7 @@
             this.panel1.Controls.Add(this.dataGridView3);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.dataGridView2);
-            this.panel1.Controls.Add(this.checkBox1);
+            this.panel1.Controls.Add(this.checkBoxAutomaticMail);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.label4);
@@ -146,7 +146,7 @@
             this.panel1.Controls.Add(this.label5);
             this.panel1.Location = new System.Drawing.Point(34, 208);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(961, 515);
+            this.panel1.Size = new System.Drawing.Size(977, 515);
             this.panel1.TabIndex = 36;
             // 
             // dataGridView4
@@ -166,7 +166,7 @@
             this.credit});
             this.dataGridView4.Location = new System.Drawing.Point(14, 444);
             this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.Size = new System.Drawing.Size(928, 63);
+            this.dataGridView4.Size = new System.Drawing.Size(944, 63);
             this.dataGridView4.TabIndex = 48;
             this.dataGridView4.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView4_CellContentClick);
             // 
@@ -245,7 +245,7 @@
             this.dataGridView3.Location = new System.Drawing.Point(14, 356);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.RowHeadersWidth = 50;
-            this.dataGridView3.Size = new System.Drawing.Size(928, 63);
+            this.dataGridView3.Size = new System.Drawing.Size(944, 63);
             this.dataGridView3.TabIndex = 45;
             // 
             // AcceptedCredit
@@ -283,7 +283,7 @@
             this.dataGridView2.Location = new System.Drawing.Point(15, 268);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 50;
-            this.dataGridView2.Size = new System.Drawing.Size(928, 63);
+            this.dataGridView2.Size = new System.Drawing.Size(944, 63);
             this.dataGridView2.TabIndex = 43;
             // 
             // FiscayYear
@@ -298,14 +298,14 @@
             this.Amount.Name = "Amount";
             this.Amount.Width = 500;
             // 
-            // checkBox1
+            // checkBoxAutomaticMail
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(16, 228);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 42;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBoxAutomaticMail.AutoSize = true;
+            this.checkBoxAutomaticMail.Location = new System.Drawing.Point(16, 228);
+            this.checkBoxAutomaticMail.Name = "checkBoxAutomaticMail";
+            this.checkBoxAutomaticMail.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxAutomaticMail.TabIndex = 42;
+            this.checkBoxAutomaticMail.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
@@ -326,7 +326,7 @@
             this.panel5.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.panel5.Location = new System.Drawing.Point(16, 209);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(925, 2);
+            this.panel5.Size = new System.Drawing.Size(941, 2);
             this.panel5.TabIndex = 40;
             // 
             // label4
@@ -364,7 +364,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(15, 124);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 50;
-            this.dataGridView1.Size = new System.Drawing.Size(928, 63);
+            this.dataGridView1.Size = new System.Drawing.Size(944, 63);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -390,7 +390,7 @@
             // 
             this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(925, 81);
+            this.pictureBox6.Location = new System.Drawing.Point(941, 81);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(15, 15);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -406,7 +406,7 @@
             this.textBoxOutPM.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.textBoxOutPM.Location = new System.Drawing.Point(496, 77);
             this.textBoxOutPM.Name = "textBoxOutPM";
-            this.textBoxOutPM.Size = new System.Drawing.Size(450, 22);
+            this.textBoxOutPM.Size = new System.Drawing.Size(466, 22);
             this.textBoxOutPM.TabIndex = 36;
             this.textBoxOutPM.Text = "...";
             // 
@@ -464,7 +464,7 @@
             this.textBoxSupplierAccount.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.textBoxSupplierAccount.Location = new System.Drawing.Point(496, 30);
             this.textBoxSupplierAccount.Name = "textBoxSupplierAccount";
-            this.textBoxSupplierAccount.Size = new System.Drawing.Size(450, 22);
+            this.textBoxSupplierAccount.Size = new System.Drawing.Size(466, 22);
             this.textBoxSupplierAccount.TabIndex = 16;
             this.textBoxSupplierAccount.Text = "type this...";
             // 
@@ -533,7 +533,7 @@
             this.panel11.Location = new System.Drawing.Point(34, 38);
             this.panel11.MaximumSize = new System.Drawing.Size(1200, 39);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(961, 39);
+            this.panel11.Size = new System.Drawing.Size(977, 39);
             this.panel11.TabIndex = 28;
             // 
             // labelTittle
@@ -553,7 +553,7 @@
             this.panel10.Controls.Add(this.pictureBox8);
             this.panel10.Controls.Add(this.pictureBox9);
             this.panel10.Controls.Add(this.pictureBox10);
-            this.panel10.Location = new System.Drawing.Point(863, 5);
+            this.panel10.Location = new System.Drawing.Point(879, 5);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(80, 27);
             this.panel10.TabIndex = 18;
@@ -611,7 +611,7 @@
             this.panel2.Location = new System.Drawing.Point(34, 83);
             this.panel2.MaximumSize = new System.Drawing.Size(1200, 90);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(961, 90);
+            this.panel2.Size = new System.Drawing.Size(977, 90);
             this.panel2.TabIndex = 29;
             // 
             // checkBoxCarrier
@@ -739,7 +739,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1020, 723);
+            this.ClientSize = new System.Drawing.Size(1036, 762);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.buttonDelivery);
@@ -817,7 +817,7 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBoxAutomaticMail;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DataGridView dataGridView3;

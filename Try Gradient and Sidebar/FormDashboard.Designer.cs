@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.labelDashboard = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.buttonSales = new System.Windows.Forms.Button();
+            this.buttonPurchase = new System.Windows.Forms.Button();
+            this.buttonAccounting = new System.Windows.Forms.Button();
+            this.buttonInventory = new System.Windows.Forms.Button();
+            this.buttonHRD = new System.Windows.Forms.Button();
+            this.buttonProduction = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -49,94 +49,94 @@
             this.labelDashboard.Size = new System.Drawing.Size(0, 21);
             this.labelDashboard.TabIndex = 13;
             // 
-            // button1
+            // buttonSales
             // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button1.ForeColor = System.Drawing.Color.DimGray;
-            this.button1.Location = new System.Drawing.Point(8, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Sales";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonSales.FlatAppearance.BorderSize = 0;
+            this.buttonSales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSales.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.buttonSales.ForeColor = System.Drawing.Color.DimGray;
+            this.buttonSales.Location = new System.Drawing.Point(8, 2);
+            this.buttonSales.Name = "buttonSales";
+            this.buttonSales.Size = new System.Drawing.Size(75, 23);
+            this.buttonSales.TabIndex = 5;
+            this.buttonSales.Text = "Sales";
+            this.buttonSales.UseVisualStyleBackColor = true;
             // 
-            // button21
+            // buttonPurchase
             // 
-            this.button21.FlatAppearance.BorderSize = 0;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button21.ForeColor = System.Drawing.Color.DimGray;
-            this.button21.Location = new System.Drawing.Point(80, 2);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(87, 23);
-            this.button21.TabIndex = 10;
-            this.button21.Text = "Purchase";
-            this.button21.UseVisualStyleBackColor = true;
+            this.buttonPurchase.FlatAppearance.BorderSize = 0;
+            this.buttonPurchase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonPurchase.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.buttonPurchase.ForeColor = System.Drawing.Color.DimGray;
+            this.buttonPurchase.Location = new System.Drawing.Point(80, 2);
+            this.buttonPurchase.Name = "buttonPurchase";
+            this.buttonPurchase.Size = new System.Drawing.Size(87, 23);
+            this.buttonPurchase.TabIndex = 10;
+            this.buttonPurchase.Text = "Purchase";
+            this.buttonPurchase.UseVisualStyleBackColor = true;
             // 
-            // button16
+            // buttonAccounting
             // 
-            this.button16.FlatAppearance.BorderSize = 0;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button16.ForeColor = System.Drawing.Color.DimGray;
-            this.button16.Location = new System.Drawing.Point(426, 2);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(90, 26);
-            this.button16.TabIndex = 8;
-            this.button16.Text = "Accounting";
-            this.button16.UseVisualStyleBackColor = true;
+            this.buttonAccounting.FlatAppearance.BorderSize = 0;
+            this.buttonAccounting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAccounting.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.buttonAccounting.ForeColor = System.Drawing.Color.DimGray;
+            this.buttonAccounting.Location = new System.Drawing.Point(426, 2);
+            this.buttonAccounting.Name = "buttonAccounting";
+            this.buttonAccounting.Size = new System.Drawing.Size(90, 26);
+            this.buttonAccounting.TabIndex = 8;
+            this.buttonAccounting.Text = "Accounting";
+            this.buttonAccounting.UseVisualStyleBackColor = true;
             // 
-            // button20
+            // buttonInventory
             // 
-            this.button20.FlatAppearance.BorderSize = 0;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button20.ForeColor = System.Drawing.Color.DimGray;
-            this.button20.Location = new System.Drawing.Point(180, 2);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(75, 26);
-            this.button20.TabIndex = 9;
-            this.button20.Text = "Inventory";
-            this.button20.UseVisualStyleBackColor = true;
+            this.buttonInventory.FlatAppearance.BorderSize = 0;
+            this.buttonInventory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonInventory.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.buttonInventory.ForeColor = System.Drawing.Color.DimGray;
+            this.buttonInventory.Location = new System.Drawing.Point(180, 2);
+            this.buttonInventory.Name = "buttonInventory";
+            this.buttonInventory.Size = new System.Drawing.Size(75, 26);
+            this.buttonInventory.TabIndex = 9;
+            this.buttonInventory.Text = "Inventory";
+            this.buttonInventory.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // buttonHRD
             // 
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button12.ForeColor = System.Drawing.Color.DimGray;
-            this.button12.Location = new System.Drawing.Point(261, 3);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 23);
-            this.button12.TabIndex = 7;
-            this.button12.Text = "HRD";
-            this.button12.UseVisualStyleBackColor = true;
+            this.buttonHRD.FlatAppearance.BorderSize = 0;
+            this.buttonHRD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonHRD.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.buttonHRD.ForeColor = System.Drawing.Color.DimGray;
+            this.buttonHRD.Location = new System.Drawing.Point(261, 3);
+            this.buttonHRD.Name = "buttonHRD";
+            this.buttonHRD.Size = new System.Drawing.Size(75, 23);
+            this.buttonHRD.TabIndex = 7;
+            this.buttonHRD.Text = "HRD";
+            this.buttonHRD.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // buttonProduction
             // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button5.ForeColor = System.Drawing.Color.DimGray;
-            this.button5.Location = new System.Drawing.Point(333, 2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(87, 27);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "Production";
-            this.button5.UseVisualStyleBackColor = true;
+            this.buttonProduction.FlatAppearance.BorderSize = 0;
+            this.buttonProduction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonProduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.buttonProduction.ForeColor = System.Drawing.Color.DimGray;
+            this.buttonProduction.Location = new System.Drawing.Point(333, 2);
+            this.buttonProduction.Name = "buttonProduction";
+            this.buttonProduction.Size = new System.Drawing.Size(87, 27);
+            this.buttonProduction.TabIndex = 6;
+            this.buttonProduction.Text = "Production";
+            this.buttonProduction.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Controls.Add(this.button21);
-            this.panel3.Controls.Add(this.button16);
-            this.panel3.Controls.Add(this.button20);
-            this.panel3.Controls.Add(this.button12);
-            this.panel3.Controls.Add(this.button5);
+            this.panel3.Controls.Add(this.buttonSales);
+            this.panel3.Controls.Add(this.buttonPurchase);
+            this.panel3.Controls.Add(this.buttonAccounting);
+            this.panel3.Controls.Add(this.buttonInventory);
+            this.panel3.Controls.Add(this.buttonHRD);
+            this.panel3.Controls.Add(this.buttonProduction);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
@@ -163,12 +163,12 @@
         #endregion
 
         private System.Windows.Forms.Label labelDashboard;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button buttonSales;
+        private System.Windows.Forms.Button buttonPurchase;
+        private System.Windows.Forms.Button buttonAccounting;
+        private System.Windows.Forms.Button buttonInventory;
+        private System.Windows.Forms.Button buttonHRD;
+        private System.Windows.Forms.Button buttonProduction;
         private System.Windows.Forms.Panel panel3;
     }
 }

@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Try_Gradient_and_Sidebar
 {
-    public partial class FormSalesContactCreate : Form
+    public partial class FormSalesDeliveryOrder : Form
     {
-        public FormSalesContactCreate()
+        public FormSalesDeliveryOrder()
         {
             InitializeComponent();
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FormSalesContactCreate_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace Try_Gradient_and_Sidebar
 {
-    public partial class FormSalesContactCreate : Form
+    public partial class FormSalesQuotationCreate : Form
     {
-        public FormSalesContactCreate()
+        public FormSalesQuotationCreate()
         {
             InitializeComponent();
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void FormSalesContactCreate_Load(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

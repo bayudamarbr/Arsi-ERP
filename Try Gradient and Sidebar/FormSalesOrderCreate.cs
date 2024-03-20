@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Try_Gradient_and_Sidebar
 {
-    public partial class FormSalesDeliverOrder : Form
+    public partial class FormSalesOrderCreate : Form
     {
-        public FormSalesDeliverOrder()
+        public FormSalesOrderCreate()
         {
             InitializeComponent();
         }

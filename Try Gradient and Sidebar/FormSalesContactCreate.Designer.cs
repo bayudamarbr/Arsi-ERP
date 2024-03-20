@@ -30,65 +30,65 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSalesContactCreate));
             this.panel10 = new System.Windows.Forms.Panel();
-            this.refresh = new System.Windows.Forms.PictureBox();
-            this.save = new System.Windows.Forms.PictureBox();
             this.close = new System.Windows.Forms.PictureBox();
+            this.save = new System.Windows.Forms.PictureBox();
+            this.refresh = new System.Windows.Forms.PictureBox();
             this.labelTittle = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.buttonAddPhoto = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBoxCivility = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBoxFN = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBoxLN = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.labelPartnerType = new System.Windows.Forms.Label();
             this.textBoxMC = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.labelPartnerType = new System.Windows.Forms.Label();
+            this.textBoxLN = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBoxFN = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBoxCivility = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.buttonAddPhoto = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBoxLanguage = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.textBoxCompaines = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBoxTeam = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBoxAdmin = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBoxAdmin = new System.Windows.Forms.TextBox();
-            this.textBoxTeam = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBoxCompaines = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.buttonPartners = new System.Windows.Forms.Button();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.buttonContact = new System.Windows.Forms.Button();
+            this.textBoxLanguage = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.richTextBoxNotes = new System.Windows.Forms.RichTextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBoxReports = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.textBoxMP = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.textBoxFP = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.richTextBoxTimeSlot = new System.Windows.Forms.RichTextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.textBoxAddress = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
             this.textBoxFax = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.textBoxMP = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.textBoxFP = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.textBoxReports = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.textBoxFuction = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.buttonPartners = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.buttonContact = new System.Windows.Forms.Button();
             this.panel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.refresh)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.save)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.close)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.save)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.refresh)).BeginInit();
             this.panel11.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.buttonAddPhoto)).BeginInit();
@@ -109,17 +109,17 @@
             this.panel10.Size = new System.Drawing.Size(80, 27);
             this.panel10.TabIndex = 18;
             // 
-            // refresh
+            // close
             // 
-            this.refresh.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.refresh.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.refresh.Image = ((System.Drawing.Image)(resources.GetObject("refresh.Image")));
-            this.refresh.Location = new System.Drawing.Point(29, 3);
-            this.refresh.Name = "refresh";
-            this.refresh.Size = new System.Drawing.Size(20, 20);
-            this.refresh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.refresh.TabIndex = 1;
-            this.refresh.TabStop = false;
+            this.close.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.close.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.close.Image = ((System.Drawing.Image)(resources.GetObject("close.Image")));
+            this.close.Location = new System.Drawing.Point(55, 3);
+            this.close.Name = "close";
+            this.close.Size = new System.Drawing.Size(20, 20);
+            this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.close.TabIndex = 5;
+            this.close.TabStop = false;
             // 
             // save
             // 
@@ -133,17 +133,17 @@
             this.save.TabIndex = 4;
             this.save.TabStop = false;
             // 
-            // close
+            // refresh
             // 
-            this.close.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.close.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.close.Image = ((System.Drawing.Image)(resources.GetObject("close.Image")));
-            this.close.Location = new System.Drawing.Point(55, 3);
-            this.close.Name = "close";
-            this.close.Size = new System.Drawing.Size(20, 20);
-            this.close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.close.TabIndex = 5;
-            this.close.TabStop = false;
+            this.refresh.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.refresh.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.refresh.Image = ((System.Drawing.Image)(resources.GetObject("refresh.Image")));
+            this.refresh.Location = new System.Drawing.Point(29, 3);
+            this.refresh.Name = "refresh";
+            this.refresh.Size = new System.Drawing.Size(20, 20);
+            this.refresh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.refresh.TabIndex = 1;
+            this.refresh.TabStop = false;
             // 
             // labelTittle
             // 
@@ -192,89 +192,26 @@
             this.panel1.Size = new System.Drawing.Size(600, 248);
             this.panel1.TabIndex = 14;
             // 
-            // buttonAddPhoto
+            // textBoxMC
             // 
-            this.buttonAddPhoto.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonAddPhoto.Image = ((System.Drawing.Image)(resources.GetObject("buttonAddPhoto.Image")));
-            this.buttonAddPhoto.Location = new System.Drawing.Point(53, 51);
-            this.buttonAddPhoto.Name = "buttonAddPhoto";
-            this.buttonAddPhoto.Size = new System.Drawing.Size(30, 30);
-            this.buttonAddPhoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.buttonAddPhoto.TabIndex = 3;
-            this.buttonAddPhoto.TabStop = false;
+            this.textBoxMC.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxMC.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxMC.Location = new System.Drawing.Point(138, 104);
+            this.textBoxMC.Name = "textBoxMC";
+            this.textBoxMC.Size = new System.Drawing.Size(433, 22);
+            this.textBoxMC.TabIndex = 21;
+            this.textBoxMC.Text = ".....";
             // 
-            // pictureBox1
+            // label3
             // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(8, 8);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(120, 120);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
-            // textBoxCivility
-            // 
-            this.textBoxCivility.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxCivility.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBoxCivility.Location = new System.Drawing.Point(138, 30);
-            this.textBoxCivility.Name = "textBoxCivility";
-            this.textBoxCivility.Size = new System.Drawing.Size(150, 22);
-            this.textBoxCivility.TabIndex = 13;
-            this.textBoxCivility.Text = ".....";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label5.Location = new System.Drawing.Point(134, 8);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(53, 19);
-            this.label5.TabIndex = 12;
-            this.label5.Text = "Civility";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // textBoxFN
-            // 
-            this.textBoxFN.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxFN.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBoxFN.Location = new System.Drawing.Point(303, 30);
-            this.textBoxFN.Name = "textBoxFN";
-            this.textBoxFN.Size = new System.Drawing.Size(130, 22);
-            this.textBoxFN.TabIndex = 15;
-            this.textBoxFN.Text = ".....";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label1.Location = new System.Drawing.Point(299, 8);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 19);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "First Name";
-            // 
-            // textBoxLN
-            // 
-            this.textBoxLN.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxLN.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBoxLN.Location = new System.Drawing.Point(443, 30);
-            this.textBoxLN.Name = "textBoxLN";
-            this.textBoxLN.Size = new System.Drawing.Size(130, 22);
-            this.textBoxLN.TabIndex = 17;
-            this.textBoxLN.Text = ".....";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label2.Location = new System.Drawing.Point(439, 8);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 19);
-            this.label2.TabIndex = 16;
-            this.label2.Text = "Last Name";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label3.Location = new System.Drawing.Point(134, 82);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(104, 19);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "Main Company";
             // 
             // panel5
             // 
@@ -298,26 +235,89 @@
             this.labelPartnerType.TabIndex = 18;
             this.labelPartnerType.Text = "Portal Adresses";
             // 
-            // textBoxMC
+            // textBoxLN
             // 
-            this.textBoxMC.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxMC.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBoxMC.Location = new System.Drawing.Point(138, 104);
-            this.textBoxMC.Name = "textBoxMC";
-            this.textBoxMC.Size = new System.Drawing.Size(433, 22);
-            this.textBoxMC.TabIndex = 21;
-            this.textBoxMC.Text = ".....";
+            this.textBoxLN.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxLN.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxLN.Location = new System.Drawing.Point(443, 30);
+            this.textBoxLN.Name = "textBoxLN";
+            this.textBoxLN.Size = new System.Drawing.Size(130, 22);
+            this.textBoxLN.TabIndex = 17;
+            this.textBoxLN.Text = ".....";
             // 
-            // label3
+            // label2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label3.Location = new System.Drawing.Point(134, 82);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(104, 19);
-            this.label3.TabIndex = 20;
-            this.label3.Text = "Main Company";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label2.Location = new System.Drawing.Point(439, 8);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(75, 19);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Last Name";
+            // 
+            // textBoxFN
+            // 
+            this.textBoxFN.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxFN.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxFN.Location = new System.Drawing.Point(303, 30);
+            this.textBoxFN.Name = "textBoxFN";
+            this.textBoxFN.Size = new System.Drawing.Size(130, 22);
+            this.textBoxFN.TabIndex = 15;
+            this.textBoxFN.Text = ".....";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label1.Location = new System.Drawing.Point(299, 8);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(77, 19);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "First Name";
+            // 
+            // textBoxCivility
+            // 
+            this.textBoxCivility.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCivility.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxCivility.Location = new System.Drawing.Point(138, 30);
+            this.textBoxCivility.Name = "textBoxCivility";
+            this.textBoxCivility.Size = new System.Drawing.Size(150, 22);
+            this.textBoxCivility.TabIndex = 13;
+            this.textBoxCivility.Text = ".....";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label5.Location = new System.Drawing.Point(134, 8);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(53, 19);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Civility";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // buttonAddPhoto
+            // 
+            this.buttonAddPhoto.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonAddPhoto.Image = ((System.Drawing.Image)(resources.GetObject("buttonAddPhoto.Image")));
+            this.buttonAddPhoto.Location = new System.Drawing.Point(53, 51);
+            this.buttonAddPhoto.Name = "buttonAddPhoto";
+            this.buttonAddPhoto.Size = new System.Drawing.Size(30, 30);
+            this.buttonAddPhoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.buttonAddPhoto.TabIndex = 3;
+            this.buttonAddPhoto.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Location = new System.Drawing.Point(8, 8);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(120, 120);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
@@ -341,96 +341,57 @@
             this.panel2.Size = new System.Drawing.Size(305, 248);
             this.panel2.TabIndex = 22;
             // 
-            // panel3
+            // textBoxCompaines
             // 
-            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Controls.Add(this.richTextBox1);
-            this.panel3.Controls.Add(this.label12);
-            this.panel3.Location = new System.Drawing.Point(640, 367);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(305, 161);
-            this.panel3.TabIndex = 23;
+            this.textBoxCompaines.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCompaines.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxCompaines.Location = new System.Drawing.Point(7, 188);
+            this.textBoxCompaines.Name = "textBoxCompaines";
+            this.textBoxCompaines.Size = new System.Drawing.Size(285, 22);
+            this.textBoxCompaines.TabIndex = 31;
+            this.textBoxCompaines.Text = ".....";
             // 
-            // panel4
+            // label11
             // 
-            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel4.Controls.Add(this.richTextBox2);
-            this.panel4.Controls.Add(this.label20);
-            this.panel4.Controls.Add(this.textBox2);
-            this.panel4.Controls.Add(this.label19);
-            this.panel4.Controls.Add(this.textBoxFax);
-            this.panel4.Controls.Add(this.label17);
-            this.panel4.Controls.Add(this.textBoxEmail);
-            this.panel4.Controls.Add(this.label18);
-            this.panel4.Controls.Add(this.textBoxMP);
-            this.panel4.Controls.Add(this.label15);
-            this.panel4.Controls.Add(this.textBoxFP);
-            this.panel4.Controls.Add(this.label16);
-            this.panel4.Controls.Add(this.textBoxReports);
-            this.panel4.Controls.Add(this.label14);
-            this.panel4.Controls.Add(this.textBox1);
-            this.panel4.Controls.Add(this.label13);
-            this.panel4.Location = new System.Drawing.Point(34, 367);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(600, 326);
-            this.panel4.TabIndex = 24;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label11.Location = new System.Drawing.Point(3, 166);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(166, 19);
+            this.label11.TabIndex = 30;
+            this.label11.Text = "Compaines associaced to";
             // 
-            // panel6
+            // textBoxTeam
             // 
-            this.panel6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel6.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.panel6.Location = new System.Drawing.Point(7, 30);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(285, 2);
-            this.panel6.TabIndex = 21;
+            this.textBoxTeam.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxTeam.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxTeam.Location = new System.Drawing.Point(153, 141);
+            this.textBoxTeam.Name = "textBoxTeam";
+            this.textBoxTeam.Size = new System.Drawing.Size(140, 22);
+            this.textBoxTeam.TabIndex = 29;
+            this.textBoxTeam.Text = "...";
             // 
-            // label4
+            // label10
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label4.Location = new System.Drawing.Point(3, 8);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 19);
-            this.label4.TabIndex = 20;
-            this.label4.Text = "Setting";
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label10.Location = new System.Drawing.Point(150, 125);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(34, 13);
+            this.label10.TabIndex = 28;
+            this.label10.Text = "Team";
             // 
-            // label6
+            // textBoxAdmin
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label6.Location = new System.Drawing.Point(4, 35);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 13);
-            this.label6.TabIndex = 22;
-            this.label6.Text = "Reference";
-            // 
-            // textBoxLanguage
-            // 
-            this.textBoxLanguage.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxLanguage.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBoxLanguage.Location = new System.Drawing.Point(7, 73);
-            this.textBoxLanguage.Name = "textBoxLanguage";
-            this.textBoxLanguage.Size = new System.Drawing.Size(285, 22);
-            this.textBoxLanguage.TabIndex = 23;
-            this.textBoxLanguage.Text = ".....";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label7.Location = new System.Drawing.Point(3, 51);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(69, 19);
-            this.label7.TabIndex = 22;
-            this.label7.Text = "Language";
+            this.textBoxAdmin.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxAdmin.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxAdmin.Location = new System.Drawing.Point(7, 141);
+            this.textBoxAdmin.Name = "textBoxAdmin";
+            this.textBoxAdmin.Size = new System.Drawing.Size(140, 22);
+            this.textBoxAdmin.TabIndex = 27;
+            this.textBoxAdmin.Text = "Admin";
             // 
             // label8
             // 
@@ -465,85 +426,78 @@
             this.label9.TabIndex = 24;
             this.label9.Text = "Assigned to";
             // 
-            // textBoxAdmin
+            // textBoxLanguage
             // 
-            this.textBoxAdmin.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxAdmin.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBoxAdmin.Location = new System.Drawing.Point(7, 141);
-            this.textBoxAdmin.Name = "textBoxAdmin";
-            this.textBoxAdmin.Size = new System.Drawing.Size(140, 22);
-            this.textBoxAdmin.TabIndex = 27;
-            this.textBoxAdmin.Text = "Admin";
+            this.textBoxLanguage.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxLanguage.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxLanguage.Location = new System.Drawing.Point(7, 73);
+            this.textBoxLanguage.Name = "textBoxLanguage";
+            this.textBoxLanguage.Size = new System.Drawing.Size(285, 22);
+            this.textBoxLanguage.TabIndex = 23;
+            this.textBoxLanguage.Text = ".....";
             // 
-            // textBoxTeam
+            // label6
             // 
-            this.textBoxTeam.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxTeam.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBoxTeam.Location = new System.Drawing.Point(153, 141);
-            this.textBoxTeam.Name = "textBoxTeam";
-            this.textBoxTeam.Size = new System.Drawing.Size(140, 22);
-            this.textBoxTeam.TabIndex = 29;
-            this.textBoxTeam.Text = "...";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label6.Location = new System.Drawing.Point(4, 35);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(57, 13);
+            this.label6.TabIndex = 22;
+            this.label6.Text = "Reference";
             // 
-            // label10
+            // label7
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label10.Location = new System.Drawing.Point(150, 125);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(34, 13);
-            this.label10.TabIndex = 28;
-            this.label10.Text = "Team";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label7.Location = new System.Drawing.Point(3, 51);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(69, 19);
+            this.label7.TabIndex = 22;
+            this.label7.Text = "Language";
             // 
-            // textBoxCompaines
+            // panel6
             // 
-            this.textBoxCompaines.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxCompaines.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBoxCompaines.Location = new System.Drawing.Point(7, 188);
-            this.textBoxCompaines.Name = "textBoxCompaines";
-            this.textBoxCompaines.Size = new System.Drawing.Size(285, 22);
-            this.textBoxCompaines.TabIndex = 31;
-            this.textBoxCompaines.Text = ".....";
+            this.panel6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panel6.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.panel6.Location = new System.Drawing.Point(7, 30);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(285, 2);
+            this.panel6.TabIndex = 21;
             // 
-            // label11
+            // label4
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label11.Location = new System.Drawing.Point(3, 166);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(166, 19);
-            this.label11.TabIndex = 30;
-            this.label11.Text = "Compaines associaced to";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label4.Location = new System.Drawing.Point(3, 8);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(54, 19);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "Setting";
             // 
-            // buttonPartners
+            // panel3
             // 
-            this.buttonPartners.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPartners.Location = new System.Drawing.Point(134, 336);
-            this.buttonPartners.Name = "buttonPartners";
-            this.buttonPartners.Size = new System.Drawing.Size(80, 25);
-            this.buttonPartners.TabIndex = 27;
-            this.buttonPartners.Text = "Partners";
-            this.buttonPartners.UseVisualStyleBackColor = true;
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.richTextBoxNotes);
+            this.panel3.Controls.Add(this.label12);
+            this.panel3.Location = new System.Drawing.Point(640, 367);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(305, 161);
+            this.panel3.TabIndex = 23;
             // 
-            // panel8
+            // richTextBoxNotes
             // 
-            this.panel8.BackColor = System.Drawing.Color.Red;
-            this.panel8.Location = new System.Drawing.Point(34, 337);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(90, 2);
-            this.panel8.TabIndex = 26;
-            // 
-            // buttonContact
-            // 
-            this.buttonContact.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonContact.Location = new System.Drawing.Point(32, 336);
-            this.buttonContact.Name = "buttonContact";
-            this.buttonContact.Size = new System.Drawing.Size(96, 25);
-            this.buttonContact.TabIndex = 25;
-            this.buttonContact.Text = "Contact Details";
-            this.buttonContact.UseVisualStyleBackColor = true;
+            this.richTextBoxNotes.Location = new System.Drawing.Point(7, 30);
+            this.richTextBoxNotes.Name = "richTextBoxNotes";
+            this.richTextBoxNotes.Size = new System.Drawing.Size(285, 100);
+            this.richTextBoxNotes.TabIndex = 28;
+            this.richTextBoxNotes.Text = "";
             // 
             // label12
             // 
@@ -556,97 +510,71 @@
             this.label12.TabIndex = 31;
             this.label12.Text = "Notes";
             // 
-            // richTextBox1
+            // panel4
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(7, 30);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(285, 100);
-            this.richTextBox1.TabIndex = 28;
-            this.richTextBox1.Text = "";
+            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel4.Controls.Add(this.richTextBoxTimeSlot);
+            this.panel4.Controls.Add(this.label20);
+            this.panel4.Controls.Add(this.textBoxAddress);
+            this.panel4.Controls.Add(this.label19);
+            this.panel4.Controls.Add(this.textBoxFax);
+            this.panel4.Controls.Add(this.label17);
+            this.panel4.Controls.Add(this.textBoxEmail);
+            this.panel4.Controls.Add(this.label18);
+            this.panel4.Controls.Add(this.textBoxMP);
+            this.panel4.Controls.Add(this.label15);
+            this.panel4.Controls.Add(this.textBoxFP);
+            this.panel4.Controls.Add(this.label16);
+            this.panel4.Controls.Add(this.textBoxReports);
+            this.panel4.Controls.Add(this.label14);
+            this.panel4.Controls.Add(this.textBoxFuction);
+            this.panel4.Controls.Add(this.label13);
+            this.panel4.Location = new System.Drawing.Point(34, 367);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(600, 326);
+            this.panel4.TabIndex = 24;
             // 
-            // textBox1
+            // richTextBoxTimeSlot
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBox1.Location = new System.Drawing.Point(7, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(270, 22);
-            this.textBox1.TabIndex = 15;
-            this.textBox1.Text = ".....";
+            this.richTextBoxTimeSlot.Location = new System.Drawing.Point(8, 218);
+            this.richTextBoxTimeSlot.Name = "richTextBoxTimeSlot";
+            this.richTextBoxTimeSlot.Size = new System.Drawing.Size(566, 96);
+            this.richTextBoxTimeSlot.TabIndex = 29;
+            this.richTextBoxTimeSlot.Text = "";
             // 
-            // label13
+            // label20
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label13.Location = new System.Drawing.Point(3, 8);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(56, 19);
-            this.label13.TabIndex = 14;
-            this.label13.Text = "Fuction";
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label20.Location = new System.Drawing.Point(4, 196);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(69, 19);
+            this.label20.TabIndex = 28;
+            this.label20.Text = "Time Slot";
             // 
-            // textBoxReports
+            // textBoxAddress
             // 
-            this.textBoxReports.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxReports.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBoxReports.Location = new System.Drawing.Point(303, 30);
-            this.textBoxReports.Name = "textBoxReports";
-            this.textBoxReports.Size = new System.Drawing.Size(270, 22);
-            this.textBoxReports.TabIndex = 17;
-            this.textBoxReports.Text = ".....";
+            this.textBoxAddress.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxAddress.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxAddress.Location = new System.Drawing.Point(8, 171);
+            this.textBoxAddress.Name = "textBoxAddress";
+            this.textBoxAddress.Size = new System.Drawing.Size(566, 22);
+            this.textBoxAddress.TabIndex = 27;
+            this.textBoxAddress.Text = "Jl. Bahagia";
             // 
-            // label14
+            // label19
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label14.Location = new System.Drawing.Point(299, 8);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(74, 19);
-            this.label14.TabIndex = 16;
-            this.label14.Text = "Reports to";
-            // 
-            // textBoxMP
-            // 
-            this.textBoxMP.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxMP.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBoxMP.Location = new System.Drawing.Point(304, 77);
-            this.textBoxMP.Name = "textBoxMP";
-            this.textBoxMP.Size = new System.Drawing.Size(270, 22);
-            this.textBoxMP.TabIndex = 21;
-            this.textBoxMP.Text = "+62000000";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label15.Location = new System.Drawing.Point(300, 55);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(96, 19);
-            this.label15.TabIndex = 20;
-            this.label15.Text = "Mobile Phone";
-            // 
-            // textBoxFP
-            // 
-            this.textBoxFP.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxFP.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBoxFP.Location = new System.Drawing.Point(8, 77);
-            this.textBoxFP.Name = "textBoxFP";
-            this.textBoxFP.Size = new System.Drawing.Size(270, 22);
-            this.textBoxFP.TabIndex = 19;
-            this.textBoxFP.Text = "+6200000";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label16.Location = new System.Drawing.Point(4, 55);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(85, 19);
-            this.label16.TabIndex = 18;
-            this.label16.Text = "Fixed Phone";
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label19.Location = new System.Drawing.Point(4, 149);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(58, 19);
+            this.label19.TabIndex = 26;
+            this.label19.Text = "Address";
             // 
             // textBoxFax
             // 
@@ -690,45 +618,117 @@
             this.label18.TabIndex = 22;
             this.label18.Text = "Email";
             // 
-            // textBox2
+            // textBoxMP
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBox2.Location = new System.Drawing.Point(8, 171);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(566, 22);
-            this.textBox2.TabIndex = 27;
-            this.textBox2.Text = "Jl. Bahagia";
+            this.textBoxMP.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxMP.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxMP.Location = new System.Drawing.Point(304, 77);
+            this.textBoxMP.Name = "textBoxMP";
+            this.textBoxMP.Size = new System.Drawing.Size(270, 22);
+            this.textBoxMP.TabIndex = 21;
+            this.textBoxMP.Text = "+62000000";
             // 
-            // label19
+            // label15
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label19.Location = new System.Drawing.Point(4, 149);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(58, 19);
-            this.label19.TabIndex = 26;
-            this.label19.Text = "Address";
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label15.Location = new System.Drawing.Point(300, 55);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(96, 19);
+            this.label15.TabIndex = 20;
+            this.label15.Text = "Mobile Phone";
             // 
-            // label20
+            // textBoxFP
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label20.Location = new System.Drawing.Point(4, 196);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(69, 19);
-            this.label20.TabIndex = 28;
-            this.label20.Text = "Time Slot";
+            this.textBoxFP.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxFP.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxFP.Location = new System.Drawing.Point(8, 77);
+            this.textBoxFP.Name = "textBoxFP";
+            this.textBoxFP.Size = new System.Drawing.Size(270, 22);
+            this.textBoxFP.TabIndex = 19;
+            this.textBoxFP.Text = "+6200000";
             // 
-            // richTextBox2
+            // label16
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(8, 218);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(566, 96);
-            this.richTextBox2.TabIndex = 29;
-            this.richTextBox2.Text = "";
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label16.Location = new System.Drawing.Point(4, 55);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(85, 19);
+            this.label16.TabIndex = 18;
+            this.label16.Text = "Fixed Phone";
+            // 
+            // textBoxReports
+            // 
+            this.textBoxReports.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxReports.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxReports.Location = new System.Drawing.Point(303, 30);
+            this.textBoxReports.Name = "textBoxReports";
+            this.textBoxReports.Size = new System.Drawing.Size(270, 22);
+            this.textBoxReports.TabIndex = 17;
+            this.textBoxReports.Text = ".....";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label14.Location = new System.Drawing.Point(299, 8);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(74, 19);
+            this.label14.TabIndex = 16;
+            this.label14.Text = "Reports to";
+            // 
+            // textBoxFuction
+            // 
+            this.textBoxFuction.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxFuction.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxFuction.Location = new System.Drawing.Point(7, 30);
+            this.textBoxFuction.Name = "textBoxFuction";
+            this.textBoxFuction.Size = new System.Drawing.Size(270, 22);
+            this.textBoxFuction.TabIndex = 15;
+            this.textBoxFuction.Text = ".....";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label13.Location = new System.Drawing.Point(3, 8);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(56, 19);
+            this.label13.TabIndex = 14;
+            this.label13.Text = "Fuction";
+            // 
+            // buttonPartners
+            // 
+            this.buttonPartners.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonPartners.Location = new System.Drawing.Point(134, 336);
+            this.buttonPartners.Name = "buttonPartners";
+            this.buttonPartners.Size = new System.Drawing.Size(80, 25);
+            this.buttonPartners.TabIndex = 27;
+            this.buttonPartners.Text = "Partners";
+            this.buttonPartners.UseVisualStyleBackColor = true;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.Red;
+            this.panel8.Location = new System.Drawing.Point(34, 337);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(90, 2);
+            this.panel8.TabIndex = 26;
+            // 
+            // buttonContact
+            // 
+            this.buttonContact.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonContact.Location = new System.Drawing.Point(32, 336);
+            this.buttonContact.Name = "buttonContact";
+            this.buttonContact.Size = new System.Drawing.Size(96, 25);
+            this.buttonContact.TabIndex = 25;
+            this.buttonContact.Text = "Contact Details";
+            this.buttonContact.UseVisualStyleBackColor = true;
             // 
             // FormSalesContactCreate
             // 
@@ -748,10 +748,11 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormSalesContactCreate";
             this.Text = "Contact Data";
+            this.Load += new System.EventHandler(this.FormSalesContactCreate_Load);
             this.panel10.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.refresh)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.save)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.close)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.save)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.refresh)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -808,7 +809,7 @@
         private System.Windows.Forms.Button buttonPartners;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Button buttonContact;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richTextBoxNotes;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textBoxMP;
         private System.Windows.Forms.Label label15;
@@ -816,11 +817,11 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox textBoxReports;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxFuction;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox richTextBoxTimeSlot;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxAddress;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox textBoxFax;
         private System.Windows.Forms.Label label17;

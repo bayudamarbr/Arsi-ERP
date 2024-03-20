@@ -144,11 +144,17 @@
     <Compile Include="FormSalesCusInvoice.Designer.cs">
       <DependentUpon>FormSalesCusInvoice.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesDeliverOrder.cs">
+    <Compile Include="FormSalesDeliveryOrder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesDeliverOrder.Designer.cs">
-      <DependentUpon>FormSalesDeliverOrder.cs</DependentUpon>
+    <Compile Include="FormSalesDeliveryOrder.Designer.cs">
+      <DependentUpon>FormSalesDeliveryOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSalesOrderCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesOrderCreate.Designer.cs">
+      <DependentUpon>FormSalesOrderCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSalesOrders.cs">
       <SubType>Form</SubType>
@@ -161,6 +167,18 @@
     </Compile>
     <Compile Include="FormSalesProduct.Designer.cs">
       <DependentUpon>FormSalesProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSalesProductCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesProductCreate.Designer.cs">
+      <DependentUpon>FormSalesProductCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSalesQuotationCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesQuotationCreate.Designer.cs">
+      <DependentUpon>FormSalesQuotationCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSalesQuotations.cs">
       <SubType>Form</SubType>
@@ -209,14 +227,23 @@
     <EmbeddedResource Include="FormSalesCusInvoice.resx">
       <DependentUpon>FormSalesCusInvoice.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesDeliverOrder.resx">
-      <DependentUpon>FormSalesDeliverOrder.cs</DependentUpon>
+    <EmbeddedResource Include="FormSalesDeliveryOrder.resx">
+      <DependentUpon>FormSalesDeliveryOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesOrderCreate.resx">
+      <DependentUpon>FormSalesOrderCreate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSalesOrders.resx">
       <DependentUpon>FormSalesOrders.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSalesProduct.resx">
       <DependentUpon>FormSalesProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesProductCreate.resx">
+      <DependentUpon>FormSalesProductCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesQuotationCreate.resx">
+      <DependentUpon>FormSalesQuotationCreate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSalesQuotations.resx">
       <DependentUpon>FormSalesQuotations.cs</DependentUpon>

@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSalesProduct));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -40,8 +40,6 @@
             this.create = new System.Windows.Forms.PictureBox();
             this.search = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.tbSearch = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.dwgNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CustID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.vendID = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -61,6 +59,8 @@
             this.packing = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.weight2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.depoCust = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tbSearch = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.excel)).BeginInit();
@@ -149,6 +149,7 @@
             this.create.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.create.TabIndex = 1;
             this.create.TabStop = false;
+            this.create.Click += new System.EventHandler(this.create_Click);
             // 
             // search
             // 
@@ -164,15 +165,15 @@
             // dataGridView1
             // 
             this.dataGridView1.AccessibleName = "Customer Data";
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -196,14 +197,14 @@
             this.packing,
             this.weight2,
             this.depoCust});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dataGridView1.Location = new System.Drawing.Point(34, 86);
             this.dataGridView1.MaximumSize = new System.Drawing.Size(1200, 561);
@@ -211,37 +212,6 @@
             this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.dataGridView1.Size = new System.Drawing.Size(961, 561);
             this.dataGridView1.TabIndex = 4;
-            // 
-            // tbSearch
-            // 
-            this.tbSearch.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbSearch.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.tbSearch.Location = new System.Drawing.Point(7, 8);
-            this.tbSearch.Name = "tbSearch";
-            this.tbSearch.Size = new System.Drawing.Size(171, 22);
-            this.tbSearch.TabIndex = 0;
-            this.tbSearch.Text = "Search...";
-            // 
-            // panel1
-            // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.pictureBox5);
-            this.panel1.Controls.Add(this.pictureBox6);
-            this.panel1.Controls.Add(this.excel);
-            this.panel1.Controls.Add(this.refresh);
-            this.panel1.Controls.Add(this.edit);
-            this.panel1.Controls.Add(this.create);
-            this.panel1.Controls.Add(this.search);
-            this.panel1.Controls.Add(this.tbSearch);
-            this.panel1.Location = new System.Drawing.Point(34, 27);
-            this.panel1.MaximumSize = new System.Drawing.Size(1200, 39);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(961, 39);
-            this.panel1.TabIndex = 3;
             // 
             // dwgNo
             // 
@@ -338,6 +308,37 @@
             this.depoCust.HeaderText = "Depo Cust";
             this.depoCust.Name = "depoCust";
             // 
+            // tbSearch
+            // 
+            this.tbSearch.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbSearch.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.tbSearch.Location = new System.Drawing.Point(7, 8);
+            this.tbSearch.Name = "tbSearch";
+            this.tbSearch.Size = new System.Drawing.Size(171, 22);
+            this.tbSearch.TabIndex = 0;
+            this.tbSearch.Text = "Search...";
+            // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.pictureBox5);
+            this.panel1.Controls.Add(this.pictureBox6);
+            this.panel1.Controls.Add(this.excel);
+            this.panel1.Controls.Add(this.refresh);
+            this.panel1.Controls.Add(this.edit);
+            this.panel1.Controls.Add(this.create);
+            this.panel1.Controls.Add(this.search);
+            this.panel1.Controls.Add(this.tbSearch);
+            this.panel1.Location = new System.Drawing.Point(34, 27);
+            this.panel1.MaximumSize = new System.Drawing.Size(1200, 39);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(961, 39);
+            this.panel1.TabIndex = 3;
+            // 
             // FormSalesProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -348,7 +349,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormSalesProduct";
-            this.Text = "FormSalesProduct";
+            this.Text = "Product Data";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.excel)).EndInit();

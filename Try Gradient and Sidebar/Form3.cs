@@ -20,7 +20,7 @@ namespace Try_Gradient_and_Sidebar
         FormSalesProduct salesProduct;
         FormSalesQuotations salesQuotations;
         FormSalesOrders salesOrders;
-        FormSalesDeliverOrder salesDelivery;
+        FormSalesDeliveryOrder salesDelivery;
         public Form3(string username)
         {
             InitializeComponent();
@@ -455,7 +455,7 @@ namespace Try_Gradient_and_Sidebar
         {
             if (salesDelivery == null)
             {
-                salesDelivery = new FormSalesDeliverOrder();
+                salesDelivery = new FormSalesDeliveryOrder();
                 salesDelivery.FormClosed += salesDelivery_FormClosed;
                 salesDelivery.MdiParent = this;
                 salesDelivery.Dock = DockStyle.Fill;

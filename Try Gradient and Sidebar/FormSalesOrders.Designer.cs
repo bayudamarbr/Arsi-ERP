@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSalesOrders));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -40,9 +40,20 @@
             this.create = new System.Windows.Forms.PictureBox();
             this.search = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.SaleOrder = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tbSearch = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.internalNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.company = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.stockLocation = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.customer = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.customerRef = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.confirmation = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.totalWT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.totalAIT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.currency = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.deliveryState = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.status = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.salesman = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.excel)).BeginInit();
@@ -131,6 +142,7 @@
             this.create.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.create.TabIndex = 1;
             this.create.TabStop = false;
+            this.create.Click += new System.EventHandler(this.create_Click);
             // 
             // search
             // 
@@ -146,11 +158,11 @@
             // dataGridView1
             // 
             this.dataGridView1.AccessibleName = "Customer Data";
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -159,15 +171,26 @@
             this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.SaleOrder});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            this.internalNumber,
+            this.company,
+            this.stockLocation,
+            this.customer,
+            this.customerRef,
+            this.confirmation,
+            this.totalWT,
+            this.totalAIT,
+            this.currency,
+            this.deliveryState,
+            this.status,
+            this.salesman});
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dataGridView1.Location = new System.Drawing.Point(34, 86);
             this.dataGridView1.MaximumSize = new System.Drawing.Size(1200, 561);
@@ -175,12 +198,6 @@
             this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.dataGridView1.Size = new System.Drawing.Size(961, 561);
             this.dataGridView1.TabIndex = 4;
-            // 
-            // SaleOrder
-            // 
-            this.SaleOrder.HeaderText = "Sale Orders";
-            this.SaleOrder.Name = "SaleOrder";
-            this.SaleOrder.Width = 1000;
             // 
             // tbSearch
             // 
@@ -212,6 +229,66 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(961, 39);
             this.panel1.TabIndex = 3;
+            // 
+            // internalNumber
+            // 
+            this.internalNumber.HeaderText = "Internal Number";
+            this.internalNumber.Name = "internalNumber";
+            // 
+            // company
+            // 
+            this.company.HeaderText = "Company";
+            this.company.Name = "company";
+            // 
+            // stockLocation
+            // 
+            this.stockLocation.HeaderText = "StockLocation";
+            this.stockLocation.Name = "stockLocation";
+            // 
+            // customer
+            // 
+            this.customer.HeaderText = "Customer";
+            this.customer.Name = "customer";
+            // 
+            // customerRef
+            // 
+            this.customerRef.HeaderText = "Customer Reference";
+            this.customerRef.Name = "customerRef";
+            // 
+            // confirmation
+            // 
+            this.confirmation.HeaderText = "Confirmation...";
+            this.confirmation.Name = "confirmation";
+            // 
+            // totalWT
+            // 
+            this.totalWT.HeaderText = "Total W.T";
+            this.totalWT.Name = "totalWT";
+            // 
+            // totalAIT
+            // 
+            this.totalAIT.HeaderText = "Total A.I.T";
+            this.totalAIT.Name = "totalAIT";
+            // 
+            // currency
+            // 
+            this.currency.HeaderText = "Currency";
+            this.currency.Name = "currency";
+            // 
+            // deliveryState
+            // 
+            this.deliveryState.HeaderText = "Delivery State";
+            this.deliveryState.Name = "deliveryState";
+            // 
+            // status
+            // 
+            this.status.HeaderText = "Status";
+            this.status.Name = "status";
+            // 
+            // salesman
+            // 
+            this.salesman.HeaderText = "Salesman";
+            this.salesman.Name = "salesman";
             // 
             // FormSalesOrders
             // 
@@ -250,6 +327,17 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox tbSearch;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn SaleOrder;
+        private System.Windows.Forms.DataGridViewTextBoxColumn internalNumber;
+        private System.Windows.Forms.DataGridViewTextBoxColumn company;
+        private System.Windows.Forms.DataGridViewTextBoxColumn stockLocation;
+        private System.Windows.Forms.DataGridViewTextBoxColumn customer;
+        private System.Windows.Forms.DataGridViewTextBoxColumn customerRef;
+        private System.Windows.Forms.DataGridViewTextBoxColumn confirmation;
+        private System.Windows.Forms.DataGridViewTextBoxColumn totalWT;
+        private System.Windows.Forms.DataGridViewTextBoxColumn totalAIT;
+        private System.Windows.Forms.DataGridViewTextBoxColumn currency;
+        private System.Windows.Forms.DataGridViewTextBoxColumn deliveryState;
+        private System.Windows.Forms.DataGridViewTextBoxColumn status;
+        private System.Windows.Forms.DataGridViewTextBoxColumn salesman;
     }
 }

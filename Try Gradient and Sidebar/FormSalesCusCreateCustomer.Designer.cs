@@ -36,18 +36,18 @@
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxCharging = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.textBoxPC = new System.Windows.Forms.TextBox();
+            this.textBoxPL = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxLabel = new System.Windows.Forms.RichTextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -155,18 +155,18 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel5.BackColor = System.Drawing.Color.White;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel5.Controls.Add(this.textBox2);
+            this.panel5.Controls.Add(this.textBoxCharging);
             this.panel5.Controls.Add(this.label8);
             this.panel5.Controls.Add(this.label7);
             this.panel5.Controls.Add(this.label6);
-            this.panel5.Controls.Add(this.textBox1);
+            this.panel5.Controls.Add(this.textBoxPassword);
             this.panel5.Controls.Add(this.label4);
             this.panel5.Controls.Add(this.panel1);
             this.panel5.Controls.Add(this.label2);
             this.panel5.Controls.Add(this.pictureBox3);
-            this.panel5.Controls.Add(this.textBoxPC);
+            this.panel5.Controls.Add(this.textBoxPL);
             this.panel5.Controls.Add(this.label3);
-            this.panel5.Controls.Add(this.richTextBox1);
+            this.panel5.Controls.Add(this.richTextBoxLabel);
             this.panel5.Controls.Add(this.label5);
             this.panel5.Location = new System.Drawing.Point(34, 208);
             this.panel5.Name = "panel5";
@@ -174,18 +174,18 @@
             this.panel5.TabIndex = 27;
             this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
-            // textBox2
+            // textBoxCharging
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.textBoxCharging.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBox2.Location = new System.Drawing.Point(516, 76);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(400, 22);
-            this.textBox2.TabIndex = 28;
-            this.textBox2.Text = "...";
+            this.textBoxCharging.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.textBoxCharging.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxCharging.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxCharging.Location = new System.Drawing.Point(516, 76);
+            this.textBoxCharging.Name = "textBoxCharging";
+            this.textBoxCharging.Size = new System.Drawing.Size(400, 22);
+            this.textBoxCharging.TabIndex = 28;
+            this.textBoxCharging.Text = "...";
             // 
             // label8
             // 
@@ -226,16 +226,16 @@
             this.label6.TabIndex = 25;
             this.label6.Text = "Player Quality";
             // 
-            // textBox1
+            // textBoxPassword
             // 
-            this.textBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBox1.Location = new System.Drawing.Point(15, 273);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(450, 22);
-            this.textBox1.TabIndex = 24;
-            this.textBox1.Text = "type here...";
+            this.textBoxPassword.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.textBoxPassword.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxPassword.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxPassword.Location = new System.Drawing.Point(15, 273);
+            this.textBoxPassword.Name = "textBoxPassword";
+            this.textBoxPassword.Size = new System.Drawing.Size(450, 22);
+            this.textBoxPassword.TabIndex = 24;
+            this.textBoxPassword.Text = "type here...";
             // 
             // label4
             // 
@@ -277,16 +277,16 @@
             this.pictureBox3.TabIndex = 21;
             this.pictureBox3.TabStop = false;
             // 
-            // textBoxPC
+            // textBoxPL
             // 
-            this.textBoxPC.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.textBoxPC.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxPC.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBoxPC.Location = new System.Drawing.Point(15, 205);
-            this.textBoxPC.Name = "textBoxPC";
-            this.textBoxPC.Size = new System.Drawing.Size(450, 22);
-            this.textBoxPC.TabIndex = 20;
-            this.textBoxPC.Text = "...";
+            this.textBoxPL.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.textBoxPL.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxPL.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.textBoxPL.Location = new System.Drawing.Point(15, 205);
+            this.textBoxPL.Name = "textBoxPL";
+            this.textBoxPL.Size = new System.Drawing.Size(450, 22);
+            this.textBoxPL.TabIndex = 20;
+            this.textBoxPL.Text = "...";
             // 
             // label3
             // 
@@ -299,13 +299,13 @@
             this.label3.TabIndex = 19;
             this.label3.Text = "Sale Pricelist";
             // 
-            // richTextBox1
+            // richTextBoxLabel
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(15, 30);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(450, 150);
-            this.richTextBox1.TabIndex = 13;
-            this.richTextBox1.Text = "";
+            this.richTextBoxLabel.Location = new System.Drawing.Point(15, 30);
+            this.richTextBoxLabel.Name = "richTextBoxLabel";
+            this.richTextBoxLabel.Size = new System.Drawing.Size(450, 150);
+            this.richTextBoxLabel.TabIndex = 13;
+            this.richTextBoxLabel.Text = "";
             // 
             // label5
             // 
@@ -559,17 +559,17 @@
         private System.Windows.Forms.Button buttonInvoice;
         private System.Windows.Forms.Button buttonDelivery;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richTextBoxLabel;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.TextBox textBoxPC;
+        private System.Windows.Forms.TextBox textBoxPL;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxCharging;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxPassword;
         private System.Windows.Forms.Label label4;
     }
 }
