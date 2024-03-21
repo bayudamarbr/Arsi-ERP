@@ -50,7 +50,6 @@
             this.buttonCustomer = new System.Windows.Forms.Button();
             this.buttonDelivery = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label26 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
@@ -104,6 +103,7 @@
             this.labelPartnerType = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
             this.labelTittle = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.buttonAddPhoto)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -155,7 +155,7 @@
             this.panel2.Location = new System.Drawing.Point(34, 83);
             this.panel2.MaximumSize = new System.Drawing.Size(1200, 90);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(957, 90);
+            this.panel2.Size = new System.Drawing.Size(956, 90);
             this.panel2.TabIndex = 2;
             // 
             // checkBoxCarrier
@@ -241,7 +241,7 @@
             this.panel10.Controls.Add(this.close);
             this.panel10.Controls.Add(this.save);
             this.panel10.Controls.Add(this.refresh);
-            this.panel10.Location = new System.Drawing.Point(859, 5);
+            this.panel10.Location = new System.Drawing.Point(875, 5);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(80, 27);
             this.panel10.TabIndex = 18;
@@ -407,17 +407,9 @@
             this.panel4.Location = new System.Drawing.Point(34, 208);
             this.panel4.MaximumSize = new System.Drawing.Size(1200, 750);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(957, 520);
+            this.panel4.Size = new System.Drawing.Size(956, 520);
             this.panel4.TabIndex = 11;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(763, 411);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(177, 84);
-            this.richTextBox1.TabIndex = 52;
-            this.richTextBox1.Text = "";
             // 
             // button2
             // 
@@ -437,7 +429,7 @@
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label26.Location = new System.Drawing.Point(759, 386);
+            this.label26.Location = new System.Drawing.Point(785, 386);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(46, 19);
             this.label26.TabIndex = 51;
@@ -502,10 +494,11 @@
             this.panel9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.panel9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel9.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.panel9.Location = new System.Drawing.Point(196, 381);
+            this.panel9.Location = new System.Drawing.Point(198, 381);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(750, 2);
             this.panel9.TabIndex = 43;
+            this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.panel9_Paint);
             // 
             // label22
             // 
@@ -571,7 +564,7 @@
             131072});
             this.numericUpDown1.Location = new System.Drawing.Point(407, 335);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(133, 20);
+            this.numericUpDown1.Size = new System.Drawing.Size(196, 20);
             this.numericUpDown1.TabIndex = 39;
             this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
@@ -595,9 +588,9 @@
             this.textBoxTax.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxTax.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxTax.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBoxTax.Location = new System.Drawing.Point(765, 333);
+            this.textBoxTax.Location = new System.Drawing.Point(789, 333);
             this.textBoxTax.Name = "textBoxTax";
-            this.textBoxTax.Size = new System.Drawing.Size(180, 22);
+            this.textBoxTax.Size = new System.Drawing.Size(135, 22);
             this.textBoxTax.TabIndex = 37;
             this.textBoxTax.Text = "type here...";
             // 
@@ -607,7 +600,7 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label17.Location = new System.Drawing.Point(761, 311);
+            this.label17.Location = new System.Drawing.Point(785, 311);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(51, 19);
             this.label17.TabIndex = 36;
@@ -618,9 +611,9 @@
             this.textBoxRegistCode.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxRegistCode.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxRegistCode.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBoxRegistCode.Location = new System.Drawing.Point(765, 288);
+            this.textBoxRegistCode.Location = new System.Drawing.Point(789, 288);
             this.textBoxRegistCode.Name = "textBoxRegistCode";
-            this.textBoxRegistCode.Size = new System.Drawing.Size(180, 22);
+            this.textBoxRegistCode.Size = new System.Drawing.Size(135, 22);
             this.textBoxRegistCode.TabIndex = 35;
             this.textBoxRegistCode.Text = "type here...";
             // 
@@ -630,7 +623,7 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label18.Location = new System.Drawing.Point(761, 266);
+            this.label18.Location = new System.Drawing.Point(785, 266);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(121, 19);
             this.label18.TabIndex = 34;
@@ -681,14 +674,14 @@
             // numericUpDownEmployess
             // 
             this.numericUpDownEmployess.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numericUpDownEmployess.Location = new System.Drawing.Point(565, 290);
+            this.numericUpDownEmployess.Location = new System.Drawing.Point(628, 290);
             this.numericUpDownEmployess.Maximum = new decimal(new int[] {
             1661992959,
             1808227885,
             5,
             0});
             this.numericUpDownEmployess.Name = "numericUpDownEmployess";
-            this.numericUpDownEmployess.Size = new System.Drawing.Size(181, 20);
+            this.numericUpDownEmployess.Size = new System.Drawing.Size(127, 20);
             this.numericUpDownEmployess.TabIndex = 29;
             this.numericUpDownEmployess.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.numericUpDownEmployess.ValueChanged += new System.EventHandler(this.numericUpDownEmployess_ValueChanged);
@@ -699,7 +692,7 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label14.Location = new System.Drawing.Point(561, 266);
+            this.label14.Location = new System.Drawing.Point(624, 266);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(112, 19);
             this.label14.TabIndex = 28;
@@ -717,7 +710,7 @@
             5,
             0});
             this.numericUpDownTurnover.Name = "numericUpDownTurnover";
-            this.numericUpDownTurnover.Size = new System.Drawing.Size(135, 20);
+            this.numericUpDownTurnover.Size = new System.Drawing.Size(198, 20);
             this.numericUpDownTurnover.TabIndex = 27;
             this.numericUpDownTurnover.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.numericUpDownTurnover.ValueChanged += new System.EventHandler(this.numericUpDownTurnover_ValueChanged);
@@ -788,7 +781,7 @@
             this.panel7.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.panel7.Location = new System.Drawing.Point(18, 258);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(929, 2);
+            this.panel7.Size = new System.Drawing.Size(992, 2);
             this.panel7.TabIndex = 21;
             // 
             // label10
@@ -810,7 +803,7 @@
             this.textBoxWebsite.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.textBoxWebsite.Location = new System.Drawing.Point(661, 209);
             this.textBoxWebsite.Name = "textBoxWebsite";
-            this.textBoxWebsite.Size = new System.Drawing.Size(250, 22);
+            this.textBoxWebsite.Size = new System.Drawing.Size(263, 22);
             this.textBoxWebsite.TabIndex = 19;
             this.textBoxWebsite.Text = "https://example.com";
             // 
@@ -856,7 +849,7 @@
             this.textBoxMobilePhone.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.textBoxMobilePhone.Location = new System.Drawing.Point(661, 162);
             this.textBoxMobilePhone.Name = "textBoxMobilePhone";
-            this.textBoxMobilePhone.Size = new System.Drawing.Size(250, 22);
+            this.textBoxMobilePhone.Size = new System.Drawing.Size(263, 22);
             this.textBoxMobilePhone.TabIndex = 15;
             this.textBoxMobilePhone.Text = "+620000000";
             this.textBoxMobilePhone.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
@@ -880,7 +873,7 @@
             this.textBoxFax.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.textBoxFax.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxFax.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.textBoxFax.Location = new System.Drawing.Point(290, 171);
+            this.textBoxFax.Location = new System.Drawing.Point(290, 162);
             this.textBoxFax.Name = "textBoxFax";
             this.textBoxFax.Size = new System.Drawing.Size(250, 22);
             this.textBoxFax.TabIndex = 13;
@@ -892,7 +885,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label6.Location = new System.Drawing.Point(286, 149);
+            this.label6.Location = new System.Drawing.Point(286, 140);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(30, 19);
             this.label6.TabIndex = 12;
@@ -927,7 +920,7 @@
             this.panel6.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.panel6.Location = new System.Drawing.Point(16, 135);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1023, 2);
+            this.panel6.Size = new System.Drawing.Size(1086, 2);
             this.panel6.TabIndex = 8;
             // 
             // label4
@@ -960,7 +953,7 @@
             this.textBoxAdress.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.textBoxAdress.Location = new System.Drawing.Point(15, 70);
             this.textBoxAdress.Name = "textBoxAdress";
-            this.textBoxAdress.Size = new System.Drawing.Size(1023, 22);
+            this.textBoxAdress.Size = new System.Drawing.Size(909, 22);
             this.textBoxAdress.TabIndex = 9;
             this.textBoxAdress.Text = "Address";
             this.textBoxAdress.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -995,7 +988,7 @@
             this.panel5.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.panel5.Location = new System.Drawing.Point(15, 30);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1023, 2);
+            this.panel5.Size = new System.Drawing.Size(1086, 2);
             this.panel5.TabIndex = 6;
             // 
             // labelPartnerType
@@ -1020,7 +1013,7 @@
             this.panel11.Location = new System.Drawing.Point(34, 38);
             this.panel11.MaximumSize = new System.Drawing.Size(1200, 39);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(957, 39);
+            this.panel11.Size = new System.Drawing.Size(956, 39);
             this.panel11.TabIndex = 12;
             // 
             // labelTittle
@@ -1034,13 +1027,21 @@
             this.labelTittle.TabIndex = 19;
             this.labelTittle.Text = "Create New Customer";
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(789, 408);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(144, 96);
+            this.richTextBox1.TabIndex = 52;
+            this.richTextBox1.Text = "";
+            // 
             // FormSalesCusCreateInformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1020, 723);
+            this.ClientSize = new System.Drawing.Size(1036, 762);
             this.Controls.Add(this.panel11);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.buttonDelivery);
@@ -1145,7 +1146,6 @@
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.PictureBox close;
         private System.Windows.Forms.PictureBox save;
@@ -1153,5 +1153,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label labelTittle;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }

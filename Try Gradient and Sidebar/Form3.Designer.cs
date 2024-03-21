@@ -281,6 +281,7 @@
             this.flowLayoutPanelSales.Controls.Add(this.buttonCT);
             this.flowLayoutPanelSales.Location = new System.Drawing.Point(6, 108);
             this.flowLayoutPanelSales.Margin = new System.Windows.Forms.Padding(0);
+            this.flowLayoutPanelSales.MinimumSize = new System.Drawing.Size(222, 37);
             this.flowLayoutPanelSales.Name = "flowLayoutPanelSales";
             this.flowLayoutPanelSales.Size = new System.Drawing.Size(222, 37);
             this.flowLayoutPanelSales.TabIndex = 7;
@@ -456,6 +457,7 @@
             this.buttonSalesman.Text = "         Salesman    ";
             this.buttonSalesman.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.buttonSalesman.UseVisualStyleBackColor = false;
+            this.buttonSalesman.Click += new System.EventHandler(this.buttonSalesman_Click);
             // 
             // buttonSM
             // 
@@ -474,6 +476,7 @@
             this.buttonSM.Text = "         Sales Manager    ";
             this.buttonSM.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.buttonSM.UseVisualStyleBackColor = false;
+            this.buttonSM.Click += new System.EventHandler(this.buttonSM_Click);
             // 
             // buttonSD
             // 
@@ -492,6 +495,7 @@
             this.buttonSD.Text = "         Sales Detail    ";
             this.buttonSD.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.buttonSD.UseVisualStyleBackColor = false;
+            this.buttonSD.Click += new System.EventHandler(this.buttonSD_Click);
             // 
             // buttonTS
             // 
@@ -510,6 +514,7 @@
             this.buttonTS.Text = "         Turnover Study    ";
             this.buttonTS.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.buttonTS.UseVisualStyleBackColor = false;
+            this.buttonTS.Click += new System.EventHandler(this.buttonTS_Click);
             // 
             // buttonCT
             // 
@@ -528,6 +533,7 @@
             this.buttonCT.Text = "         Customers    ";
             this.buttonCT.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.buttonCT.UseVisualStyleBackColor = false;
+            this.buttonCT.Click += new System.EventHandler(this.buttonCT_Click);
             // 
             // flowLayoutPanel2
             // 
@@ -1047,7 +1053,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1280, 788);
             this.Controls.Add(this.extendedPanel1);
             this.Controls.Add(this.panel5);

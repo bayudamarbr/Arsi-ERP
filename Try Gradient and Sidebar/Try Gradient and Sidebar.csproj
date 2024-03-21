@@ -186,6 +186,36 @@
     <Compile Include="FormSalesQuotations.Designer.cs">
       <DependentUpon>FormSalesQuotations.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSalesReportCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesReportCustomer.Designer.cs">
+      <DependentUpon>FormSalesReportCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSalesReportSalesDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesReportSalesDetail.Designer.cs">
+      <DependentUpon>FormSalesReportSalesDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSalesReportSalesman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesReportSalesman.Designer.cs">
+      <DependentUpon>FormSalesReportSalesman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSalesReportSalesManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesReportSalesManager.Designer.cs">
+      <DependentUpon>FormSalesReportSalesManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSalesReportTurnoverStudy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalesReportTurnoverStudy.Designer.cs">
+      <DependentUpon>FormSalesReportTurnoverStudy.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -247,6 +277,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormSalesQuotations.resx">
       <DependentUpon>FormSalesQuotations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesReportCustomer.resx">
+      <DependentUpon>FormSalesReportCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesReportSalesDetail.resx">
+      <DependentUpon>FormSalesReportSalesDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesReportSalesman.resx">
+      <DependentUpon>FormSalesReportSalesman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesReportSalesManager.resx">
+      <DependentUpon>FormSalesReportSalesManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesReportTurnoverStudy.resx">
+      <DependentUpon>FormSalesReportTurnoverStudy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

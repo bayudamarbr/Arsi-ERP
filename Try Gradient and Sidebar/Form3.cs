@@ -21,6 +21,11 @@ namespace Try_Gradient_and_Sidebar
         FormSalesQuotations salesQuotations;
         FormSalesOrders salesOrders;
         FormSalesDeliveryOrder salesDelivery;
+        FormSalesReportSalesman reportSalesman;
+        FormSalesReportSalesManager reportSalesManager;
+        FormSalesReportSalesDetail reportSalesDetail;
+        FormSalesReportTurnoverStudy reportTurnoverStudy;
+        FormSalesReportCustomer reportCustomer;
         public Form3(string username)
         {
             InitializeComponent();
@@ -509,6 +514,109 @@ namespace Try_Gradient_and_Sidebar
 
         }
 
+        private void buttonSalesman_Click(object sender, EventArgs e)
+        {
+            if (reportSalesman == null)
+            {
+                reportSalesman = new FormSalesReportSalesman();
+                reportSalesman.FormClosed += reportSalesman_FormClosed;
+                reportSalesman.MdiParent = this;
+                reportSalesman.Dock = DockStyle.Fill;
+                reportSalesman.Show();
+            }
+            else
+            {
+                reportSalesman.Activate();
+            }
+        }
 
+        private void reportSalesman_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            reportSalesman = null;
+        }
+
+        private void buttonSM_Click(object sender, EventArgs e)
+        {
+            if (reportSalesManager == null)
+            {
+                reportSalesManager = new FormSalesReportSalesManager();
+                reportSalesManager.FormClosed += reportSalesManager_FormClosed;
+                reportSalesManager.MdiParent = this;
+                reportSalesManager.Dock = DockStyle.Fill;
+                reportSalesManager.Show();
+            }
+            else
+            {
+                reportSalesManager.Activate();
+            }
+        }
+
+        private void reportSalesManager_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            reportSalesManager = null;
+        }
+
+        private void buttonSD_Click(object sender, EventArgs e)
+        {
+            if (reportSalesDetail == null)
+            {
+                reportSalesDetail = new FormSalesReportSalesDetail();
+                reportSalesDetail.FormClosed += reportSalesDetail_FormClosed;
+                reportSalesDetail.MdiParent = this;
+                reportSalesDetail.Dock = DockStyle.Fill;
+                reportSalesDetail.Show();
+            }
+            else
+            {
+                reportSalesDetail.Activate();
+            }
+        }
+
+        private void reportSalesDetail_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            reportSalesDetail = null;
+        }
+
+        private void buttonTS_Click(object sender, EventArgs e)
+        {
+            if (reportTurnoverStudy == null)
+            {
+                reportTurnoverStudy = new FormSalesReportTurnoverStudy();
+                reportTurnoverStudy.FormClosed += reportTurnoverStudy_FormClosed;
+                reportTurnoverStudy.MdiParent = this;
+                reportTurnoverStudy.Dock = DockStyle.Fill;
+                reportTurnoverStudy.Show();
+            }
+            else
+            {
+                reportTurnoverStudy.Activate();
+            }
+        }
+
+        private void reportTurnoverStudy_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            reportTurnoverStudy = null;
+        }
+
+        private void buttonCT_Click(object sender, EventArgs e)
+        {
+            if (reportCustomer == null)
+            {
+                reportCustomer = new FormSalesReportCustomer();
+                reportCustomer.FormClosed += reportCustomer_FormClosed;
+                reportCustomer.MdiParent = this;
+                reportCustomer.Dock = DockStyle.Fill;
+                reportCustomer.Show();
+            }
+            else
+            {
+                reportCustomer.Activate();
+            }
+        }
+
+        private void reportCustomer_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            reportCustomer = null;
+        }
     }
 }

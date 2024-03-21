@@ -196,5 +196,10 @@ namespace Try_Gradient_and_Sidebar
         {
             salesDelivery = null;
         }
+
+        private void panel9_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
