@@ -485,7 +485,7 @@ namespace Try_Gradient_and_Sidebar
                 menuTransition1.Stop();
 
                 // Memperbarui tinggi flowLayoutPanelSales menjadi 518
-                flowLayoutPanelSales.Height = 518;
+                flowLayoutPanelSales.Height = 545;
 
                 // Memulai kembali timer transisi
                 menuTransition1.Start();
