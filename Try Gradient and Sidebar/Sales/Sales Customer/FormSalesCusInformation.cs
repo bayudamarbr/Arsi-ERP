@@ -22,6 +22,7 @@ namespace Try_Gradient_and_Sidebar
             InitializeComponent();
         }
 
+
         private void FormSalesCusCreate_Load(object sender, EventArgs e)
         {
 

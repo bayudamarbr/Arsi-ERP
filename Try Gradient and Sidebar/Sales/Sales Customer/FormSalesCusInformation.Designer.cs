@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSalesCusCreateInformation));
-            this.label1 = new System.Windows.Forms.Label();
             this.buttonAddPhoto = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.checkBoxCarrier = new System.Windows.Forms.CheckBox();
@@ -50,6 +49,7 @@
             this.buttonCustomer = new System.Windows.Forms.Button();
             this.buttonDelivery = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label26 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
@@ -103,7 +103,6 @@
             this.labelPartnerType = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
             this.labelTittle = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.buttonAddPhoto)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -118,14 +117,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.buttonAddAdress)).BeginInit();
             this.panel11.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 13);
-            this.label1.TabIndex = 0;
             // 
             // buttonAddPhoto
             // 
@@ -410,6 +401,14 @@
             this.panel4.Size = new System.Drawing.Size(956, 520);
             this.panel4.TabIndex = 11;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(789, 408);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(144, 96);
+            this.richTextBox1.TabIndex = 52;
+            this.richTextBox1.Text = "";
             // 
             // button2
             // 
@@ -1027,14 +1026,6 @@
             this.labelTittle.TabIndex = 19;
             this.labelTittle.Text = "Create New Customer";
             // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(789, 408);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(144, 96);
-            this.richTextBox1.TabIndex = 52;
-            this.richTextBox1.Text = "";
-            // 
             // FormSalesCusCreateInformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1051,7 +1042,6 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.buttonInformation);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormSalesCusCreateInformation";
             this.Text = "Customer Data";
@@ -1073,13 +1063,10 @@
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox buttonAddPhoto;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;

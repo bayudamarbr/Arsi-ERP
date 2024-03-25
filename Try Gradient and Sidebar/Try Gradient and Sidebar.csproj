@@ -70,46 +70,46 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormSalesContact.cs">
+    <Compile Include="Sales\Sales Contact\FormSalesContact.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesContact.Designer.cs">
+    <Compile Include="Sales\Sales Contact\FormSalesContact.Designer.cs">
       <DependentUpon>FormSalesContact.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesContactCreate.cs">
+    <Compile Include="Sales\Sales Contact\FormSalesContactCreate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesContactCreate.Designer.cs">
+    <Compile Include="Sales\Sales Contact\FormSalesContactCreate.Designer.cs">
       <DependentUpon>FormSalesContactCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesCusAccounting.cs">
+    <Compile Include="Sales\Sales Customer\FormSalesCusAccounting.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesCusAccounting.Designer.cs">
+    <Compile Include="Sales\Sales Customer\FormSalesCusAccounting.Designer.cs">
       <DependentUpon>FormSalesCusAccounting.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesCusAccountingCreate.cs">
+    <Compile Include="Sales\Sales Customer\FormSalesCusAccountingCreate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesCusAccountingCreate.Designer.cs">
+    <Compile Include="Sales\Sales Customer\FormSalesCusAccountingCreate.Designer.cs">
       <DependentUpon>FormSalesCusAccountingCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesCusCreateCustomer.cs">
+    <Compile Include="Sales\Sales Customer\FormSalesCusCreateCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesCusCreateCustomer.Designer.cs">
+    <Compile Include="Sales\Sales Customer\FormSalesCusCreateCustomer.Designer.cs">
       <DependentUpon>FormSalesCusCreateCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesCusDelivery.cs">
+    <Compile Include="Sales\Sales Customer\FormSalesCusDelivery.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesCusDelivery.Designer.cs">
+    <Compile Include="Sales\Sales Customer\FormSalesCusDelivery.Designer.cs">
       <DependentUpon>FormSalesCusDelivery.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesCusInformation.cs">
+    <Compile Include="Sales\Sales Customer\FormSalesCusInformation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesCusInformation.Designer.cs">
+    <Compile Include="Sales\Sales Customer\FormSalesCusInformation.Designer.cs">
       <DependentUpon>FormSalesCusInformation.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
@@ -130,94 +130,94 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormDashboard.cs">
+    <Compile Include="Dashboard\FormDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDashboard.Designer.cs">
+    <Compile Include="Dashboard\FormDashboard.Designer.cs">
       <DependentUpon>FormDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesCus.cs">
+    <Compile Include="Sales\Sales Customer\FormSalesCus.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesCus.Designer.cs">
+    <Compile Include="Sales\Sales Customer\FormSalesCus.Designer.cs">
       <DependentUpon>FormSalesCus.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesCusInvoice.cs">
+    <Compile Include="Sales\Sales Customer\FormSalesCusInvoice.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesCusInvoice.Designer.cs">
+    <Compile Include="Sales\Sales Customer\FormSalesCusInvoice.Designer.cs">
       <DependentUpon>FormSalesCusInvoice.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesDeliveryOrder.cs">
+    <Compile Include="Sales\Sales Delivery\FormSalesDeliveryOrder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesDeliveryOrder.Designer.cs">
+    <Compile Include="Sales\Sales Delivery\FormSalesDeliveryOrder.Designer.cs">
       <DependentUpon>FormSalesDeliveryOrder.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesOrderCreate.cs">
+    <Compile Include="Sales\Sales Orders\FormSalesOrderCreate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesOrderCreate.Designer.cs">
+    <Compile Include="Sales\Sales Orders\FormSalesOrderCreate.Designer.cs">
       <DependentUpon>FormSalesOrderCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesOrders.cs">
+    <Compile Include="Sales\Sales Orders\FormSalesOrders.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesOrders.Designer.cs">
+    <Compile Include="Sales\Sales Orders\FormSalesOrders.Designer.cs">
       <DependentUpon>FormSalesOrders.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesProduct.cs">
+    <Compile Include="Sales\Sales Product\FormSalesProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesProduct.Designer.cs">
+    <Compile Include="Sales\Sales Product\FormSalesProduct.Designer.cs">
       <DependentUpon>FormSalesProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesProductCreate.cs">
+    <Compile Include="Sales\Sales Product\FormSalesProductCreate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesProductCreate.Designer.cs">
+    <Compile Include="Sales\Sales Product\FormSalesProductCreate.Designer.cs">
       <DependentUpon>FormSalesProductCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesQuotationCreate.cs">
+    <Compile Include="Sales\Sales Quotation\FormSalesQuotationCreate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesQuotationCreate.Designer.cs">
+    <Compile Include="Sales\Sales Quotation\FormSalesQuotationCreate.Designer.cs">
       <DependentUpon>FormSalesQuotationCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesQuotations.cs">
+    <Compile Include="Sales\Sales Quotation\FormSalesQuotations.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesQuotations.Designer.cs">
+    <Compile Include="Sales\Sales Quotation\FormSalesQuotations.Designer.cs">
       <DependentUpon>FormSalesQuotations.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesReportCustomer.cs">
+    <Compile Include="Sales\Sales Report\FormSalesReportCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesReportCustomer.Designer.cs">
+    <Compile Include="Sales\Sales Report\FormSalesReportCustomer.Designer.cs">
       <DependentUpon>FormSalesReportCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesReportSalesDetail.cs">
+    <Compile Include="Sales\Sales Report\FormSalesReportSalesDetail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesReportSalesDetail.Designer.cs">
+    <Compile Include="Sales\Sales Report\FormSalesReportSalesDetail.Designer.cs">
       <DependentUpon>FormSalesReportSalesDetail.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesReportSalesman.cs">
+    <Compile Include="Sales\Sales Report\FormSalesReportSalesman.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesReportSalesman.Designer.cs">
+    <Compile Include="Sales\Sales Report\FormSalesReportSalesman.Designer.cs">
       <DependentUpon>FormSalesReportSalesman.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesReportSalesManager.cs">
+    <Compile Include="Sales\Sales Report\FormSalesReportSalesManager.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesReportSalesManager.Designer.cs">
+    <Compile Include="Sales\Sales Report\FormSalesReportSalesManager.Designer.cs">
       <DependentUpon>FormSalesReportSalesManager.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSalesReportTurnoverStudy.cs">
+    <Compile Include="Sales\Sales Report\FormSalesReportTurnoverStudy.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSalesReportTurnoverStudy.Designer.cs">
+    <Compile Include="Sales\Sales Report\FormSalesReportTurnoverStudy.Designer.cs">
       <DependentUpon>FormSalesReportTurnoverStudy.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -231,70 +231,70 @@
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormDashboard.resx">
+    <EmbeddedResource Include="Dashboard\FormDashboard.resx">
       <DependentUpon>FormDashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesContact.resx">
+    <EmbeddedResource Include="Sales\Sales Contact\FormSalesContact.resx">
       <DependentUpon>FormSalesContact.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesContactCreate.resx">
+    <EmbeddedResource Include="Sales\Sales Contact\FormSalesContactCreate.resx">
       <DependentUpon>FormSalesContactCreate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesCus.resx">
+    <EmbeddedResource Include="Sales\Sales Customer\FormSalesCus.resx">
       <DependentUpon>FormSalesCus.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesCusAccounting.resx">
+    <EmbeddedResource Include="Sales\Sales Customer\FormSalesCusAccounting.resx">
       <DependentUpon>FormSalesCusAccounting.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesCusAccountingCreate.resx">
+    <EmbeddedResource Include="Sales\Sales Customer\FormSalesCusAccountingCreate.resx">
       <DependentUpon>FormSalesCusAccountingCreate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesCusCreateCustomer.resx">
+    <EmbeddedResource Include="Sales\Sales Customer\FormSalesCusCreateCustomer.resx">
       <DependentUpon>FormSalesCusCreateCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesCusDelivery.resx">
+    <EmbeddedResource Include="Sales\Sales Customer\FormSalesCusDelivery.resx">
       <DependentUpon>FormSalesCusDelivery.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesCusInformation.resx">
+    <EmbeddedResource Include="Sales\Sales Customer\FormSalesCusInformation.resx">
       <DependentUpon>FormSalesCusInformation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesCusInvoice.resx">
+    <EmbeddedResource Include="Sales\Sales Customer\FormSalesCusInvoice.resx">
       <DependentUpon>FormSalesCusInvoice.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesDeliveryOrder.resx">
+    <EmbeddedResource Include="Sales\Sales Delivery\FormSalesDeliveryOrder.resx">
       <DependentUpon>FormSalesDeliveryOrder.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesOrderCreate.resx">
+    <EmbeddedResource Include="Sales\Sales Orders\FormSalesOrderCreate.resx">
       <DependentUpon>FormSalesOrderCreate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesOrders.resx">
+    <EmbeddedResource Include="Sales\Sales Orders\FormSalesOrders.resx">
       <DependentUpon>FormSalesOrders.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesProduct.resx">
+    <EmbeddedResource Include="Sales\Sales Product\FormSalesProduct.resx">
       <DependentUpon>FormSalesProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesProductCreate.resx">
+    <EmbeddedResource Include="Sales\Sales Product\FormSalesProductCreate.resx">
       <DependentUpon>FormSalesProductCreate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesQuotationCreate.resx">
+    <EmbeddedResource Include="Sales\Sales Quotation\FormSalesQuotationCreate.resx">
       <DependentUpon>FormSalesQuotationCreate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesQuotations.resx">
+    <EmbeddedResource Include="Sales\Sales Quotation\FormSalesQuotations.resx">
       <DependentUpon>FormSalesQuotations.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesReportCustomer.resx">
+    <EmbeddedResource Include="Sales\Sales Report\FormSalesReportCustomer.resx">
       <DependentUpon>FormSalesReportCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesReportSalesDetail.resx">
+    <EmbeddedResource Include="Sales\Sales Report\FormSalesReportSalesDetail.resx">
       <DependentUpon>FormSalesReportSalesDetail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesReportSalesman.resx">
+    <EmbeddedResource Include="Sales\Sales Report\FormSalesReportSalesman.resx">
       <DependentUpon>FormSalesReportSalesman.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesReportSalesManager.resx">
+    <EmbeddedResource Include="Sales\Sales Report\FormSalesReportSalesManager.resx">
       <DependentUpon>FormSalesReportSalesManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSalesReportTurnoverStudy.resx">
+    <EmbeddedResource Include="Sales\Sales Report\FormSalesReportTurnoverStudy.resx">
       <DependentUpon>FormSalesReportTurnoverStudy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -332,5 +332,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
