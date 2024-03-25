@@ -64,5 +64,30 @@ namespace Try_Gradient_and_Sidebar
         {
 
         }
+
+        private void htaLogo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextboxUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

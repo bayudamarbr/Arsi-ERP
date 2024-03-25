@@ -165,7 +165,7 @@
             this.panel11.Controls.Add(this.labelTittle);
             this.panel11.Location = new System.Drawing.Point(34, 38);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(922, 39);
+            this.panel11.Size = new System.Drawing.Size(905, 39);
             this.panel11.TabIndex = 16;
             // 
             // labelTittle
@@ -193,7 +193,7 @@
             this.panel4.Controls.Add(this.label6);
             this.panel4.Location = new System.Drawing.Point(515, 290);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(441, 201);
+            this.panel4.Size = new System.Drawing.Size(424, 201);
             this.panel4.TabIndex = 60;
             // 
             // panel5
@@ -204,7 +204,7 @@
             this.panel5.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.panel5.Location = new System.Drawing.Point(1, 29);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(436, 2);
+            this.panel5.Size = new System.Drawing.Size(419, 2);
             this.panel5.TabIndex = 48;
             // 
             // dateTimePicker5
@@ -225,7 +225,7 @@
             // 
             this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(417, 12);
+            this.pictureBox3.Location = new System.Drawing.Point(400, 12);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(15, 15);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -236,7 +236,7 @@
             // 
             this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(396, 12);
+            this.pictureBox4.Location = new System.Drawing.Point(379, 12);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(15, 15);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -363,7 +363,7 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Location = new System.Drawing.Point(515, 83);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(441, 201);
+            this.panel1.Size = new System.Drawing.Size(424, 201);
             this.panel1.TabIndex = 58;
             // 
             // panel3
@@ -374,7 +374,7 @@
             this.panel3.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.panel3.Location = new System.Drawing.Point(1, 29);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(436, 2);
+            this.panel3.Size = new System.Drawing.Size(419, 2);
             this.panel3.TabIndex = 48;
             // 
             // dateTimePicker3
@@ -395,7 +395,7 @@
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(417, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(400, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(15, 15);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -406,7 +406,7 @@
             // 
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(396, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(379, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(15, 15);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -533,7 +533,7 @@
             this.panel9.Controls.Add(this.label10);
             this.panel9.Location = new System.Drawing.Point(515, 704);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(441, 201);
+            this.panel9.Size = new System.Drawing.Size(424, 201);
             this.panel9.TabIndex = 64;
             // 
             // panel10
@@ -544,7 +544,7 @@
             this.panel10.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.panel10.Location = new System.Drawing.Point(1, 29);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(436, 2);
+            this.panel10.Size = new System.Drawing.Size(419, 2);
             this.panel10.TabIndex = 48;
             // 
             // dateTimePicker9
@@ -565,7 +565,7 @@
             // 
             this.pictureBox9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(417, 12);
+            this.pictureBox9.Location = new System.Drawing.Point(400, 12);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(15, 15);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -576,7 +576,7 @@
             // 
             this.pictureBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(396, 12);
+            this.pictureBox10.Location = new System.Drawing.Point(379, 12);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(15, 15);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -703,7 +703,7 @@
             this.panel14.Controls.Add(this.label14);
             this.panel14.Location = new System.Drawing.Point(515, 497);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(441, 201);
+            this.panel14.Size = new System.Drawing.Size(424, 201);
             this.panel14.TabIndex = 62;
             // 
             // panel15
@@ -714,7 +714,7 @@
             this.panel15.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.panel15.Location = new System.Drawing.Point(1, 29);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(436, 2);
+            this.panel15.Size = new System.Drawing.Size(419, 2);
             this.panel15.TabIndex = 48;
             // 
             // dateTimePicker13
@@ -735,7 +735,7 @@
             // 
             this.pictureBox13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(417, 12);
+            this.pictureBox13.Location = new System.Drawing.Point(400, 12);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(15, 15);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -746,7 +746,7 @@
             // 
             this.pictureBox14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(396, 12);
+            this.pictureBox14.Location = new System.Drawing.Point(379, 12);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(15, 15);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -873,8 +873,9 @@
             this.panel18.Controls.Add(this.label18);
             this.panel18.Location = new System.Drawing.Point(515, 911);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(441, 201);
+            this.panel18.Size = new System.Drawing.Size(424, 201);
             this.panel18.TabIndex = 64;
+            this.panel18.Paint += new System.Windows.Forms.PaintEventHandler(this.panel18_Paint);
             // 
             // panel19
             // 
@@ -884,7 +885,7 @@
             this.panel19.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.panel19.Location = new System.Drawing.Point(1, 29);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(436, 2);
+            this.panel19.Size = new System.Drawing.Size(419, 2);
             this.panel19.TabIndex = 48;
             // 
             // dateTimePicker17
@@ -905,7 +906,7 @@
             // 
             this.pictureBox17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
-            this.pictureBox17.Location = new System.Drawing.Point(417, 12);
+            this.pictureBox17.Location = new System.Drawing.Point(400, 12);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(15, 15);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -916,7 +917,7 @@
             // 
             this.pictureBox18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
-            this.pictureBox18.Location = new System.Drawing.Point(396, 12);
+            this.pictureBox18.Location = new System.Drawing.Point(379, 12);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(15, 15);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1119,7 +1120,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1036, 762);
+            this.ClientSize = new System.Drawing.Size(1053, 762);
             this.Controls.Add(this.panel22);
             this.Controls.Add(this.panel18);
             this.Controls.Add(this.panel20);

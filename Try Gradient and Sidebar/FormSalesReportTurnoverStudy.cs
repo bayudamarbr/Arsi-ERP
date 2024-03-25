@@ -16,5 +16,10 @@ namespace Try_Gradient_and_Sidebar
         {
             InitializeComponent();
         }
+
+        private void panel18_Paint(object sender, PaintEventArgs e)
+        { 
+
+        }
     }
 }
